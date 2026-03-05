@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Test Suite" preserve-order="true" parallel="classes" thread-count="10">
+	
+
+	<parameter name="BROWSER" value="chrome" />
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="localhost" /> <!-- 192.168.43.152 -->
+	<parameter name="suite" value="api" />
+	<parameter name="environment" value="amit_local" />
+	<listeners>
+		<!-- <listener class-name="com.punchh.server.utilities.Transformer"/> -->
+		<listener
+			class-name="com.punchh.server.utilities.TestListeners" />
+	</listeners>
+
+	<test name="API Test">
+		<classes>
+			<class name="Support.ConfigurationClass" />
+			<class name="com.punchh.server.apiTest.PlatformApiTest" />
+			<class name="com.punchh.server.apiTest.MobileApiTest" />
+			<class name="com.punchh.server.apiTest.MobileApiTest2" />
+			<class name="com.punchh.server.apiTest.MobileApiTest3" />
+			<class name="com.punchh.server.apiTest.AuthAPITest" />
+			<class name="com.punchh.server.apiTest.PosAPITest" />
+			<class name="com.punchh.server.apiTest.OnlineOderingApi" />
+			<class name="com.punchh.server.apiTest.V5_redemption" />
+			<class name="com.punchh.server.apiTest.V5Checkin" />
+			<class name="com.punchh.server.apiTest.AuthApiNegativeTest" />
+			<class name="com.punchh.server.apiTest.PosApiNegativeTest" />
+			<class name="com.punchh.server.apiTest.MobileAPINegativeTest" />
+
+			<!-- <class name="com.punchh.server.apiTest.RedeemableDistributionApiTest" 
+				/> -->
+		</classes>
+	</test>
+</suite> <!-- Suite -->

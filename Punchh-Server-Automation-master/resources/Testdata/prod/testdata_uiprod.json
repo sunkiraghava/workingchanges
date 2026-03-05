@@ -1,0 +1,37 @@
+{
+	"T2233_verifySignupCampaignTriggersonUserCreation": {
+		"onGoingDrp": "Signup",
+		"giftType": "Gift Redeemable",
+		"giftReason": "Welcome Gift",
+		"redemable": "Redeemable - Signup",
+		"pushNotification": "Automation Sanity Test Push Notification",
+		"emailSubject": "Automation Sanity Test Email Subject",
+		"emailTemplate": "Automation Sanity Test Email Template",
+		"joinedChannel": "Joined Us via WebEmail"
+	},
+	"T2187_verifyPostCheckinCampaignTriggerForUser": {
+		"OfferdrpValue": "Post Checkin Offer",
+		"name": "Automation Postcheckin Campaign",
+		"giftType": "Gift Redeemable",
+		"giftReason": "Postcheckin Gift",
+		"redemable": "Redeemable - Post checkin",
+		"pushNotification": "Automation Postcheckin Push Notification",
+		"emailSubject": "Automation Postcheckin Email Subject",
+		"emailTemplate": "Automation Postcheckin Email Template",
+		"joinedChannel": "Joined Us via WebEmail"
+	},
+	"T2167_verifytheredemptionofAmount": {
+		"subject": "Message for reward gifting",
+		"location": "AB - Test Location",
+		"giftTypes": "Reward Amount",
+		"amount": "10",
+		"giftReason": "Support Gifting",
+		"redeemAmount": "4.0"
+	},
+	"T2186_VerifyredemptionofReward": {
+		"subject": "Message for reward gifting",
+		"reward": "Redeemable",
+		"redeemable": "$2.0 OFF",
+		"giftReason": "Support Gifting"
+	}
+}

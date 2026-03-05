@@ -1,0 +1,179 @@
+{
+	"Dashboard":{
+	},
+	"Guests":{
+		"Guests":"Guests/All Guest Profiles",
+		"eClub Guests":"eClub Guests/eClub Guests",
+		"Locked Accounts":"Locked Accounts",
+		"Segments":"Segments/All Segments",
+		"Referrals":"Referrals/Referrals",
+		"Gift Cards":"Gift Cards/Gift Cards",
+		"Awaiting Migration":"Awaiting Migration/Awaiting Migration",
+		"Migrated":"Migrated/Migrated",
+		"Banned":"Banned/Banned Guests",
+		"Deactivated":"Deactivated/Deactivated",
+		"Reactivation Requested":"Reactivation Requested/Reactivation Requested",
+		"Bulk Update":"Bulk Update/Security and Sign In",
+		"Fraud Suspects":"Fraud Suspects/Fraud Suspects",
+		"Receipt Tags":"Receipt Tags/Receipt Tags",
+		"Lapsed Guests Trend":"Lapsed Guests Trend/Lapsed Guests Trend",
+		"R F M Slabs":"R F M Slabs/RFM Slabs"
+		
+	},
+	"Campaigns":{
+		"Campaigns":"Campaigns/Campaign Management",
+		"Templates":"Templates/Campaign Templates",
+		"Advanced Campaign Set":"Advanced Campaign Set",
+		"Campaign Sets":"Campaign Sets/Campaign Priorities",
+		"Promo Set":"Promo Set",
+		"Pending Approval":"Pending Approval/Pending Approval",
+		"Announcements":"Announcements"
+		
+	},
+	"Acquire":{
+		"WiFi":"WiFi/WiFi (Acquire)",
+		"SMS Marketing":"SMS Marketing/SMS Marketing (Acquire)"
+	},
+	"Subscriptions":{
+		"Subscription Plans":"Subscription Plans/Subscription Plans",
+		"Subscription Taxation":"Subscription Taxation/Subscription Taxation"
+		
+	},
+	"Webhooks Manager":{
+		"Inbound":"Inbound/Inbound Webhooks",
+		"Outbound":"Outbound/Outbound Webhooks"
+	},
+	"Feedback":{
+		"Feedback":"Feedback/Feedback Manager",
+		"Employee Reviews":"Employee Reviews/Employee Loyalty Metrics",
+		"Feedback Sentiment":"Feedback Sentiment/Feedback Sentiment"
+		
+	},
+	"Reports":{
+		"Lift Report":"Lift Report/Spend Lift Report",
+		"Payments Report":"Payments Report/Payments Report ",
+		"Dumpster Divers Report":"Dumpster Divers Report/Fraud Metrics",
+		"Admin Activity Report":"Admin Activity Report/Gifting Metrics",
+		"Location Report":"Location Report/Location Channels",
+		"Redemption Report":"Redemption Report/Redemption Report",
+		"Data Export":"Data Export /Data Export",
+		"Promotional Report":"Promotional Report/Games Report",
+		"Liability Report":"Liability Report/Liability Report",
+		"Coupon Report":"Coupon Report/Coupon Report",
+		"Location Scoreboard":"Location Scoreboard/Location Scoreboard",
+		"Category Sales Report":"Category Sales Report/Category Sales Report"
+	},
+	"Support":{
+		"Barcode Lookup":"Barcode Lookup/Barcode Lookup",
+		"SSF UUID Lookup":"SSF UUID Lookup/SSF UUID lookup ",
+		"Redemption Log":"Redemption Log/Redemption Log",
+		"Campaign Support ":"Campaign Support /Campaign Support ",
+		"Gift Card Log":"Gift Card Log/Gift Card Log",
+		"Integration Services Logs":"Integration Services Logs/Integration Services Logs",
+		"Redemption Codes":"Redemption Codes/Redemption Codes",
+		"Checkin Failures":"Checkin Failures/Checkin Failures",
+		"Redemption Failures":"Redemption Failures/Redemption Failures",
+		"Heartbeats":"Heartbeats/Heartbeats",
+		"POS Stats":"POS Stats/POS Stats",
+		"Tickets":"Tickets/Tickets",
+		"Coupon Lookup":"Coupon Lookup/Coupon Lookup",
+		"Schedules":"Schedules/Schedules",
+		"Test Barcodes":"Test Barcodes/Test Barcodes",
+		"Subscription Log":"Subscription Log/Subscription Log",
+		"Gift Cards":"Gift Cards/Gift Cards"
+	},
+	"Settings":{
+		"Business":"Business/Business Profile",
+		"Viral Message":"Viral Message/Facebook Feedback Settings",
+		"WiFi Configuration":"WiFi Configuration/WiFi Configuration",
+		"Gaming Levels":"Gaming Levels/Gaming Levels",
+		"Games":"Games/Games",
+		"Scratch Cards":"Scratch Cards/Scratch Cards",
+		"Line Item Selectors":"Line Item Selectors/Line Item Selectors",
+		"Qualification Criteria":"Qualification Criteria/Qualification Criteria",
+		"Punchh Pickup":"Punchh Pickup/Punchh Pickup",
+		"Subscription Cancellation Reasons":"Subscription Cancellation Reasons/Subscription Cancellation Reasons",
+		"Redeemables":"Redeemables/All Redeemables",
+		"Derived Rewards":"Derived Rewards/Dynamic Rewards",
+		"Activity Detection Rules":"Activity Detection Rules/Fraud Detection Rules",
+		"Memberships":"Memberships/Membership Tiers",
+		"Notification Templates":"Notification Templates/System Messages",
+		"Beacons":"Beacons/Beacons",
+		"Surveys":"Surveys/Surveys",
+		"Receipt Messages":"Receipt Messages/Receipt Messages",
+		"FTP Endpoints":"FTP Endpoints/FTP Endpoints",
+		"Day Parts":"Day Parts/Day Parts",
+		"Admin Users":"Admin Users/All Users, Roles and Permissions",
+		"Gift Card Designs":"Gift Card Designs/Gift Card Designs",
+		"Passes":"Passes/Passes",
+		"Data Pipeline":"Data Pipeline/Data Pipeline",
+		"Email Templates":"Email Templates/Email Templates",
+		"Content Library":"Content Library/Email Components",
+		"Media Manager":"Media Manager/Image Manager",
+		"Locations":"Locations/All Store Locations",
+		"Location Groups":"Location Groups/Location Groups",
+		"Manage Guest's Location":"Manage Guest's Location/Manage Guest's Location",
+		"Social Publishing":"Social Publishing/Twitter Mapping",
+		"Bots":"Bots/Bots",
+		"Search Menu Items":"Search Menu Items/Product Catalog",
+		"POS Control Center":"POS Control Center/POS Control Center",
+		"Conversion Rules":"Conversion Rules/Conversion Rules",
+		"Translations":"Translations/Translations",
+		"Global Configuration":"Global Configuration/Global Configuration",
+		"Collectible Categories":"Collectible Categories/Collectible Categories",
+		"Admins":"Admins/Admins",
+		"All Collectibles":"All Collectibles/All Collectibles"
+		
+	},
+	"Whitelabel":{
+		"Services":"Services/Services",
+		"Integration Services":"Integration Services/Integration Services",
+		"OAuth Apps":"OAuth Apps/OAuth Apps",
+		"Version Notes":"Version Notes/Version Notes",
+		"iFrame Configuration":"iFrame Configuration/iFrame Configuration",
+		"Mobile Configuration":"Mobile Configuration/Mobile Configuration",
+		"API Messages":"API Messages/API Messages",
+		"Styles":"Styles/Styles"
+	},
+	"Cockpit":{
+		"Dashboard":"Dashboard/Dashboard",
+		"eClub Configuration":"eClub Configuration/eClub Configuration",
+		"Franchise Configuration":"Franchise Configuration/Franchise Configuration",
+		"Guests":"Guests/Guests",
+		"POS Integration":"POS Integration/POS Integration",
+		"Earning":"Earning/Earnings",
+		"Locations":"Locations/Locations",
+		"Redemptions":"Redemptions/Redemptions",
+		"Campaigns":"Campaigns/Campaigns",
+		"Gift Cards":"Gift Cards/Gift Cards",
+		"Payments":"Payments/Payments",
+		"Subscriptions":"Subscriptions/Subscriptions",
+		"Feedback":"Feedback/Feedback",
+		"Physical Cards":"Physical Cards/Physical Cards",
+		"Device Distribution":"Device Distribution/Device Distribution",
+		"Tableau Analytics":"Tableau Analytics/Tableau Analytics",
+		"Item Rec Sys":"Item Rec Sys/Item Rec Sys",
+		"Bulk Account Refresher":"Bulk Account Refresher/Bulk Account Refresher",
+		"Guest Identity Management":"Guest Identity Management/Guest Identity Management"
+	},
+	"SRE":{
+		"Stats Configuration":"Stats Configuration/Stats Configuration",
+		"Feature Rollouts": "Feature Rollouts/Feature Rollouts",
+		"Segment Configuration":"Segment Configuration/Segment Configuration",
+		"Mass Campaigns": "Mass Campaigns/Mass Campaigns",
+		"Data Pipeline":"Data Pipeline/Data Pipeline",
+		"Webhook Configuration":"Webhook Configuration/Webhook Configuration"
+	},
+	"Businesses":{
+		"All":"All/All"
+	},
+	"Custom": {
+		"Games": "Games/Games",
+		"Gaming Levels": "Gaming Levels/Gaming Levels",
+		"Games Report": "Games Report/Games Report",
+		"Scratch Cards": "Scratch Cards/Scratch Cards"
+	},
+	"Loyalty Program": {
+			"Dynamic Rewards": "Dynamic Rewards/Dynamic Rewards"
+	}
+}

@@ -1,0 +1,123 @@
+{
+	"usersApiValidation": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"amount": "50",
+		"reedemable_id": "34589",
+		"adminAuthorization":"2f7UEQysGe5A9soT1TUr",
+		"locationKey": "e43aa3036144b322375e14d498ea73f4"
+	},
+	"locationsApiValidation": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"adminAuthorization":"2f7UEQysGe5A9soT1TUr"
+	},
+	
+	"verifyCustomSegmentCreationUpdationDeletionAddUserApi": {
+		"slug" : "winghouse",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr",
+		"locationKey": "e43aa3036144b322375e14d498ea73f4"
+	},
+	"businessMigrationUserApiValidation": {
+		"slug" : "winghouse",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"businessAdminApiValidation": {
+		"slug" : "winghouse",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"eclubAndFranchiseApiValidation": {
+		"slug" : "winghouse",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"socialCauseCampaignsApiValidation": {
+		"slug" : "winghouse",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"verifyPosAPiSingUp_Checkin_Redemption_VoidRedemption": {
+		"slug" : "winghouse",
+		"locationKey": "e43aa3036144b322375e14d498ea73f4",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	
+		"verifyPosAPiSingUp_Checkin": {
+		"slug" : "winghouse",
+		"locationKey": "e43aa3036144b322375e14d498ea73f4",
+		"redeemAmount": "5.00",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+		"verifyAuthAPiSignupLoginCheckinUpdateUserFetchBalanceHistoryEstimatePoints": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"newPassword":"password@1234",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"verifyMobileApi2": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr",
+		"amount": "50",
+		"location_id": "372736"	
+	},
+	"verifyMobileApiV1": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr",
+		"Npwd": "password@1234"
+	},
+	
+	"verifySSOSignUpUserdetails": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"verifySSOSignUpUserCheckinAndBalance": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"verifyAuthOnlineRewardRedemption": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"verify_Redemption_Using_Reward_id": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"apiKey": "2f7UEQysGe5A9soT1TUr",
+		"redeemable_id": "33179",
+		"adminAuthorization": "2f7UEQysGe5A9soT1TUr"
+	},
+	"verify_List_User_Offers": {
+		"slug" : "winghouse",
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90",
+		"apiKey": "2f7UEQysGe5A9soT1TUr",
+		"redeemable_id": "33179",
+		"amount": "50",
+		"location_id": "372736"
+	},
+	"verify_Api2_UserSignUp_Login_Logout": {
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90"
+	},
+	"verify_FetchUserinfo_UpdateUserProfile": {
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90"
+	},
+	"verify_Create_update_delete_User_Relation": {
+		"client": "c6357d500ad2e158e04188131a4699738a6533308862e6941e20c39407274d81",
+		"secret": "7b9a45f864c4e0b0ae38cb267a469e8bc2910d380a05404b2240d4477ad3ba90"
+	}
+	
+	
+}

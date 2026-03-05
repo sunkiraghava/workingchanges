@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="classes" thread-count="10" preserve-order="true">
+
+	<parameter name="BROWSER" value="chrome" />
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="localhost" /> <!-- 192.168.43.152 -->
+	<parameter name="environment" value="pp" />
+
+	<listeners>
+		<!-- <listener class-name="com.punchh.server.utilities.Transformer" /> -->
+		<listener
+			class-name="com.punchh.server.utilities.TestListeners" />
+	</listeners>
+
+	<test name="Smoke Test" >
+		<classes>
+			<class name="Support.ConfigurationClass" />
+			<class name="com.punchh.server.segmentBuilderClause.AverageCheckinTest"/>
+		    <class name="com.punchh.server.segmentBuilderClause.CheckinTypeSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.ContainsReceiptTagsSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.DigitalStoredValueSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.EngagementTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.firstNLoyaltyAtEachLocationTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.GivenFeedbackTypeSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.GuestRedeemedSignupCampaignSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.GuestWithProfileFieldsSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.LoyaltyCardSegmentTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.OnlyVisitedWithDiscountTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.ProfileDetailSegmentTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.SavedPaymentSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQuery_eClubList"/>
+            <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQuery_NoCheckinInXDurationTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQuery_RewardBalanceTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQueryGuestTargetedFromCampaignTest"/>
+           <!-- <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQueryRewardTest"/> -->
+            <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQuerySpendRankingTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.SegmenBetaQueryTotalLifetimeEarnedPointsExcludingExpiredTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.SmartSegmentBuilderTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.TotalRedemptionSegmentsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.TotalUnusedUnexpiredUnconvertedPointsTest"/>
+            <class name="com.punchh.server.segmentBuilderClause.TotalNLoyaltyGuestAtEachLocationSegmentTest"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> 

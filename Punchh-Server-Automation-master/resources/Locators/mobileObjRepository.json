@@ -1,0 +1,15 @@
+{
+	"applePasses":{
+		"addButton":"name;Add",
+		"walletAppIcon":"name;Wallet",
+		"pass":"Id;pass-group",
+		"nextButton":"name;Next",
+		"nameTxtBox":"//XCUIElementTypeStaticText[@name='Name']/following-sibling::XCUIElementTypeTextField[@value='Required']",
+		"emailTxtBox":"//XCUIElementTypeStaticText[@name='Email']/following-sibling::XCUIElementTypeTextField[@value='Required']",
+		"agreeButton":"name;Agree",
+		"removePass":"name;remove",
+		"moreButton":"name;more",
+		"detailsOfPass": "//XCUIElementTypeOther[@name='pass-group']"
+
+	}
+}

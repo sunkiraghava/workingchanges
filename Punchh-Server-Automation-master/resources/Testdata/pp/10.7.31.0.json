@@ -1,0 +1,13 @@
+{
+	"components": [
+			{
+				"name": "PunchhMonitor.exe",
+				"version": "10.7.31.0",
+				"checksum": "c94fcb5ce8cd2171c55381db97b68a4bc4990707710116d3af2ccd9947b92989"
+			}
+		],
+	"release_notes": {
+		"internal": "Publish internal release notes for package with automation",
+		"external": "Publish external release notes for package with automation"
+	}
+}

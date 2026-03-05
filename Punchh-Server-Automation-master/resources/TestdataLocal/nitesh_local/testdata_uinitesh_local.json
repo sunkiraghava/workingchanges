@@ -1,0 +1,67 @@
+{
+  "T6724ToVerifyTheBulkImportLocationOnboardingForPARCommerceGC": {
+    "slug": "burgermonger",
+    "business_id": "690",
+    "vendorLocationID": "01JS1R2EAGA722FH45A25SSZAY",
+    "vendorLocationStatus": "Inactive"
+  },
+  "T6719ToVerifyPurchaseFunctionlaityForParCommerceGC": {
+    "slug": "burgermonger",
+    "business_id": "690",
+    "amount": "40",
+    "cardId": "18",
+    "client": "uQ8AzURwj4EVCcKlAgZJBKy5XPWPbWTE26LJo0SLzPU",
+    "secret": "7lS0sw09_vokbxJOKJ7Jy0TUbKIsq0_mpt0LY-kVvts"
+  },
+  "T6720ToVerifyReloadAndAddExistingGC": {
+    "slug": "burgermonger",
+    "business_id": "690",
+    "reloadAmount": "10",
+    "cardId": "18",
+    "client": "uQ8AzURwj4EVCcKlAgZJBKy5XPWPbWTE26LJo0SLzPU",
+    "secret": "7lS0sw09_vokbxJOKJ7Jy0TUbKIsq0_mpt0LY-kVvts",
+    "card_number": "7777554398757397",
+    "epin": "26057218", 
+    "design_id": "18"
+  },
+  "T6722ToVerifyGCBalance_Share_Revoke_transferAndTipping": {
+    "slug": "burgermonger",
+    "business_id": "690",
+    "reloadAmount": "10",
+    "cardId": "18",
+    "client": "uQ8AzURwj4EVCcKlAgZJBKy5XPWPbWTE26LJo0SLzPU",
+    "secret": "7lS0sw09_vokbxJOKJ7Jy0TUbKIsq0_mpt0LY-kVvts",
+    "token": "DJ6TraMfZaVzFCuHlTALkgU339ANTzkR1q2o7iB981k",
+    "email": "nitesh.shekhawat0409_1@partech.com",
+    "locationKey": "41fae9ae3c8d9d2ac2f3fd981f85fc66"
+  },
+  "T6721ToVerifyPOSPaymentsAndRefundUsingGC": {
+    "slug": "burgermonger",
+    "business_id": "690",
+    "reloadAmount": "10",
+    "cardId": "18",
+    "client": "uQ8AzURwj4EVCcKlAgZJBKy5XPWPbWTE26LJo0SLzPU",
+    "secret": "7lS0sw09_vokbxJOKJ7Jy0TUbKIsq0_mpt0LY-kVvts",
+    "locationKey": "41fae9ae3c8d9d2ac2f3fd981f85fc66"
+  },
+  "T6945_ToValidateImportPARCommerceConfig": {
+  		"slug": "burgermonger",
+  		"business_id": "690",
+  		"vendorLocationId":"01K5ZVF8ETRHY4PG4JW2QZHBH2",
+  		"nonPayLocName":"1AutomationLocation",
+  		"nonPayLocId":"351163"
+},
+"T6946_ToValidateGCPurchaseAndPOSPayments_PARCommerce": {
+	"slug": "burgermonger",
+	  		"business_id": "690",
+	  		"non_payment_location_key": "83c8de9195c4edc727d5c07fa778de64",
+	  		"payment_location_key": "6c233bae762e2d3e999dde89649acc53",
+	  		"non_wallet_gc_design_id": "18",
+			"locationKey": "41fae9ae3c8d9d2ac2f3fd981f85fc66"
+},
+"T6947_ToValidateFetchUpdateDeletePaymentCard_PARCommerce": {
+	"slug": "burgermonger",
+		  		"business_id": "690",
+				"nicknameToUpdate":"updatedTestName"
+	}
+}

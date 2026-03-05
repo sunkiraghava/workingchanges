@@ -1,0 +1,99 @@
+{
+	"T5308_verifyMobileConfigThemesColors": {
+		"slug": "demoapp",
+		"redColorHexCode": "#e8144c",
+		"primaryColorCode": "DC143C",
+		"primarycontrastColorCode": "4169E1",
+		"secondaryColorCode": "50C878",
+		"accentColorCode": "FF4500",
+		"backgroundColorCode": "800080",
+		"baseColorCode": "40E0D0",
+		"borderColorCode": "FF7F50",
+		"defaultColorCode": "8B4513",
+		"blackColorCode": "000000"
+	},
+	"T6517_verifyMobileConfigThemesLayout": {
+		"slug": "demoapp"
+	},
+	"T6519_verifyMetaApiThemesChanges": {
+		"slug": "demoapp",
+		"primaryColorCode": "DC143C",
+		"primarycontrastColorCode": "4169E1",
+		"secondaryColorCode": "50C878",
+		"accentColorCode": "FF4500",
+		"backgroundColorCode": "800080",
+		"baseColorCode": "40E0D0",
+		"borderColorCode": "FF7F50",
+		"defaultColorCode": "8B4513",
+		"blackColorCode": "000000",
+		"iconUrlPart": "https://res.cloudinary.com/punchh/image/upload/g_center,q_100/v1/assets.punchh.io/mobile_configurations/demoapp/themes-editor/",
+		"svgImagePath": "/resources/Images/svg_5kb.svg"
+	},
+	"T6518_verifyMobileConfigThemesIcons": {
+		"slug": "demoapp",
+		"lightThemeColor": "rgba(255, 255, 255, 1)",
+		"darkThemeColor": "rgba(31, 34, 35, 1)",
+		"svgImagePath": "/resources/Images/svg_5kb.svg",
+		"pngImagePath": "/resources/images.png",
+		"svgImage1MbPath": "/resources/Images/svg_1mb.svg",
+		"iconUrlPart": "https://res.cloudinary.com/punchh/image/upload/g_center,q_100/v1/assets.punchh.io/mobile_configurations/demoapp/themes-editor/"
+	},
+	"T6646_bulkActionOnLocationGroupPage": {
+		"slug": "demoapp",
+		"bulkActionPageURL": "/bulk_tag_create_requests",
+		"bulkImportPageURL": "/bulk_tag_create_requests/new",
+		"validCSVPath": "/resources/CSV/locations_valid.csv",
+		"formatIssueCSVPath": "/resources/CSV/locations_format_issue.csv",
+		"moreThan20LocCSVPath": "/resources/CSV/locations_21invalid_issue.csv"
+	},
+	"T6650_bulkActionUnavailableWithoutRelevantPermission": {
+		"slug": "demoapp",
+		"username": "vaibhav.agnihotri+1@partech.com"
+	},
+	"T6670_bulkActionAdminEmailVerification": {
+		"slug": "demoapp",
+		"username": "qa.automation.hero+13@gmail.com",
+		"exact20InvalidLocCSVPath": "/resources/CSV/locations_20invalid.csv",
+		"lessThan20InvalidLocCSVPath": "/resources/CSV/locations_15invalid.csv"
+	},
+	"T6667_exportLocationListOnLocationsPage": {
+		"slug": "demoapp",
+		"username": "qa.automation.hero+13@gmail.com"
+	},
+	"T6672_exportLocationListForFranchisee": {
+		"slug": "demoapp",
+		"username": "qa.automation.hero+15@gmail.com"
+	},
+	"T6717_bulkActionCreateLocation": {
+		"slug": "demoapp",
+		"username": "vaibhav.agnihotri+11@partech.com",
+		"bulkActionPageURL": "/bulk_location_uploads",
+		"bulkImportPageURL": "/bulk_location_uploads/new",
+		"locUploadSampleFileName": "bulk_location_create_sample.csv",
+		"validCSVPath": "/resources/CSV/create_location_valid.csv",
+		"locationName": "Created_by_automation",
+		"locationStoreNumber": "1122"
+	},
+	"T6718_bulkActionOnLocationsPageFailureCases": {
+		"slug": "demoapp",
+		"redColorHexCode": "#ff0000",
+		"blankNameCSVPath": "/resources/CSV/create_location_blank_name.csv",
+		"duplicateNameCSVPath": "/resources/CSV/create_location_duplicate_name.csv",
+		"validCSVPath": "/resources/CSV/create_location_valid.csv",
+		"invalidLocGroupCSVPath": "/resources/CSV/create_location_invalid_group.csv",
+		"unorderedColumnsCSVPath": "/resources/CSV/create_location_unordered_columns.csv",
+		"existingLocUploadRequestName": "Duplicate Name"
+	},
+	"T4238_verifyAdminsPagination": {
+		"slug": "demoapp",
+		"businessId": "1",
+		"adminTableHeaders": "Name,Email,Login Provider,MFA,Type,Read Only",
+		"unselectedPageNumberColor": "rgba(51, 52, 61, 1)",
+		"selectedPageNumberColor": "rgba(255, 255, 255, 1)",
+		"selectedPageNumberCircleColor": "rgba(86, 136, 211, 1)",
+		"adminName": "DND Automation",
+		"adminRole": "Business Manager",
+		"userEmail": "qa.automation.hero+$num@gmail.com",
+		"senderEmail": "donotreply@partech.com"
+	}
+}

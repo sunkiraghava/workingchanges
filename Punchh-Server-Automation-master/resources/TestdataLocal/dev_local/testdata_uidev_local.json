@@ -1,0 +1,25 @@
+{
+	"T6832_updateRewardExpiryDateFromPostRedemptionCampaign": {
+		"slug": "nativegrill",
+		"PostRedemptionCampaignName": "Automation Post Redemption Offer Campaign  Do not delete",
+		"rewardCount": "5"
+	},
+	"T6830_updateRewardExpiryDateFromPostCheckinCampaign": {
+		"slug": "nativegrill",
+		"PostCheckinCampaignName": "Automation Post Checkin Offer Campaign  Do not delete",
+		"rewardCount": "5"
+	},
+	"T6852_updateRewardExpiryDateFromAnniversaryCampaign": {
+		"slug": "nativegrill",
+		"anniversayCampaignName": "Automation Anniversary Campaign Do not delete",
+		"rewardCount": "5"
+	},
+	"T6853_updateRewardExpiryDateFromRecallCampaign": {
+		"slug": "nativegrill",
+		"recallCampaignName": "Automation Recall Campaign Do not delete",
+		"rewardCount": "5"
+	},
+	"T6951_updateRewardExpiryDateFromSignupCampaign": {
+		"slug": "nativegrill"
+	}
+}

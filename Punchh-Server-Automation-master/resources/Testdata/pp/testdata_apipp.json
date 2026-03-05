@@ -1,0 +1,1885 @@
+{
+	"verifyPosAPiSingUp_Checkin_Redemption_VoidRedemption": {
+		"slug": "autoone",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"redeemAmount": "5.00",
+		"file": "STAGE"
+	},
+	"verify_Api2_UserSignUp_Login_Logout": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verify_FetchUserinfo_UpdateUserProfile": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verifyPOSPayments": {
+		"slug": "automationfifteen",
+		"client": "BD-XLYiy4MHIGkDVG0VP7pBcBhWrDxEZHZp2m1Xb3U0",
+		"secret": "5VZDplwu-W_dO-kcGD9dIS2QDH_xt2DfTx0R45yHPZg",
+		"locationKey": "cadef048c878b8f7835def290dad4ee1",
+		"statusToUpdate": "completed",
+		"paymentType": "CreditCard",
+		"transactionToken": "transaction_token",
+		"heartlandPublicKey": "pkapi_cert_IK0iNjWm2RtOczqasr"
+	},
+	"verifyPOSPaymentsNegative": {
+		"slug": "automationfifteen",
+		"client": "BD-XLYiy4MHIGkDVG0VP7pBcBhWrDxEZHZp2m1Xb3U0",
+		"secret": "5VZDplwu-W_dO-kcGD9dIS2QDH_xt2DfTx0R45yHPZg",
+		"locationKey": "cadef048c878b8f7835def290dad4ee1",
+		"statusToUpdate": "completed",
+		"invalidLocationKey": "21427328e4911c32fd31060d61e8cfe0",
+		"invalidPaymentType": "Credit",
+		"invalidSingleScanCode": "85106E1A724445A10093B465CBA20000",
+		"invalidPaymentReferenceId": "1234567",
+		"invalidStatus": "done",
+		"paymentType": "CreditCard",
+		"transactionToken": "transaction_token",
+		"heartlandPublicKey": "pkapi_cert_IK0iNjWm2RtOczqasr"
+	},
+	"verifyMobileAPIv1UserSignup": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"signupChannel": "MobileFacebook",
+		"feedbackMessage": "Great place! would like to come back.",
+		"feedbackRating": "4",
+		"passcode": "1234"
+	},
+	"verifyMobileAPIv1UserSignupNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"signupChannel": "MobileFacebook",
+		"feedbackMessage": "Great place! would like to come back.",
+		"feedbackRating": "4",
+		"passcode": "1234"
+	},
+	"verifyAuthMetaApi": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"existingSubscriptionPlanID": "2222"
+	},
+	"verifyAuthMetaApiNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"existingSubscriptionPlanID": "2222",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"slug1": "automationfourteen",
+		"client1": "V4xQcURTdBrTEYbZr4vmvB93-xqtk3Vx2TP3Wai8juk",
+		"secret1": "LtJAB_jesz8TVNeW48UTQS5rEmKCgO2klwh92_HwBiM"
+	},
+	"verifyAPIv1Checkins": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemableID": "2367593",
+		"rewardName": "$2.0 OFF",
+		"amount": "50.00"
+	},
+	"verifyAPIv1CheckinsNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemableID": "2367593",
+		"rewardName": "$2.0 OFF",
+		"amount": "50.00"
+	},
+	"verifyPOSUnlockDiscountBasket": {
+		"slug": "autonine",
+		"client": "0f1a839479c1f473a45e5517fad44756146d739a14aaa704a8361ab4f0bdca7f",
+		"secret": "8fb3995118c397b1d9c32def3e272458f40dd2e5611be071cb970e7d879ea246",
+		"locationKey": "ec372a866639cb02e87d3405fb6f57bc",
+		"apiKey": "52CQpjZmsf7wneGc5ux7",
+		"redeemableId": "2370510"
+	},
+	"verifyPOSUnlockDiscountBasketNegative": {
+		"slug": "autonine",
+		"client": "0f1a839479c1f473a45e5517fad44756146d739a14aaa704a8361ab4f0bdca7f",
+		"secret": "8fb3995118c397b1d9c32def3e272458f40dd2e5611be071cb970e7d879ea246",
+		"locationKey": "ec372a866639cb02e87d3405fb6f57bc",
+		"apiKey": "52CQpjZmsf7wneGc5ux7",
+		"redeemableId": "2370510",
+		"slug1": "autoone",
+		"client1": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret1": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationKey1": "d20eba40cfa97d2f33a02e600d5c69bd",
+		"apiKey1": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemableId1": "2367593"
+	},
+	"verifyAPIv1Redemptions": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationkey": "b6c302891c7f10fb070f24efd5c82dc3",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemableId": "2367593",
+		"amount": "50",
+		"rewardName": "$2.0 OFF"
+	},
+	"verifyAPIv1RedemptionsNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationkey": "b6c302891c7f10fb070f24efd5c82dc3",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemableId": "2367593",
+		"amount": "50",
+		"rewardAmount": "$2.00",
+		"rewardName": "$2.0 OFF"
+	},
+	"T5184_verifyItemRecSysMobileAPI": {
+		"slug": "nekter",
+		"client": "beecbd8a829009a43a9452b191ec7b89b6f6713d18b29bbb7427ecdcb02d37bd",
+		"secret": "ebf0ed00a65ba862cfaaec4f970845df13f3a61cf7857d417dab094882b3aaaa",
+		"bid": "600",
+		"buuid": "7b9d4c12-c6c8-433d-8f27-c1e86e81226f",
+		"cids": "130876",
+		"irsApiKey": "XICWD6hyG3XrgdxNO2DiIwNUCj5bsweMclIUmTuo"
+	},
+	"T5185_verifyItemRecSysMobileAPINegative": {
+		"slug": "nekter",
+		"client": "beecbd8a829009a43a9452b191ec7b89b6f6713d18b29bbb7427ecdcb02d37bd",
+		"secret": "ebf0ed00a65ba862cfaaec4f970845df13f3a61cf7857d417dab094882b3aaaa",
+		"bid": "600",
+		"buuid": "7b9d4c12-c6c8-433d-8f27-c1e86e81226f",
+		"cids": "130876",
+		"irsApiKey": "XICWD6hyG3XrgdxNO2DiIwNUCj5bsweMclIUmTuo"
+	},
+	"verifyAPIv1VersionNotes": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"businessId": "1024",
+		"version": "1.0",
+		"os": "iOS",
+		"model": "All",
+		"beaconEntryIDs": "8,562",
+		"beaconExitIDs": "1,624"
+	},
+	"verifyAPIv2VersionNotes": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"version": "1.0",
+		"os": "iOS",
+		"model": "All",
+		"beaconMinor": "1",
+		"beaconMajor": "1024"
+	},
+	"verifyAPIv2VersionNotesNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"version": "1.0",
+		"os": "iOS",
+		"model": "All",
+		"beaconMinor": "1",
+		"beaconMajor": "1024"
+	},
+	"verifyAPIv1VersionNotesNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"version": "1.0",
+		"os": "iOS",
+		"model": "All",
+		"beaconEntryIDs": "8,562",
+		"beaconExitIDs": "1,624"
+	},
+	"T6835_verifyItemRecSysAdminAPIs": {
+		"tacoCabanaBuuid": "745aa7ca-ec36-4524-87ae-3145ab43ac61",
+		"tacoCabanaUid": "05d76533-0349-403e-a5a3-2c4e961fd2eb",
+		"tropicalSmoothieCafeBuuid": "f33e44fd-71ef-4083-9305-669ec8b2c5a6",
+		"tropicalSmoothieCafeUid": "378265068"
+	},
+	"T6868_verifyItemRecSysAdminMenuAdjusterBulkAPIs": {
+		"beefoBradysBuuid": "56333ceb-c9d1-4e99-93a9-ceb32f211a0d",
+		"tropicalSmoothieCafeBuuid": "f33e44fd-71ef-4083-9305-669ec8b2c5a6"
+	},
+	"T6837_verifyItemRecSysAdminMenuAdjusterAPIs": {
+		"tacoCabanaBuuid": "745aa7ca-ec36-4524-87ae-3145ab43ac61",
+		"tacoCabanaExclCategoryQuoted": "['8f6afd73-542d-4e9f-9b7a-dc592325eaec','0b883ed5-d613-4046-83f0-ee6b3cfdd7bb']",
+		"tacoCabanaExclCategoryUnquoted": "[8f6afd73-542d-4e9f-9b7a-dc592325eaec, 0b883ed5-d613-4046-83f0-ee6b3cfdd7bb]"
+	},
+	"T6836_verifyItemRecSysServiceAPIs": {
+		"tacoCabanaBuuid": "745aa7ca-ec36-4524-87ae-3145ab43ac61",
+		"tacoCabanaUid": "05d76533-0349-403e-a5a3-2c4e961fd2eb",
+		"tacoCabanaCids": "8c3196aa-7c32-42e7-bee3-7607044ead9e,02fd939b-4a97-410c-90d0-ecda205ea38f,731efc7d-8793-4f98-b33c-03ef20f1248f,2d65fa5f-a427-452b-9e5d-3ea2325e0045",
+		"tacoCabanaMids": "default",
+		"beefoBradysBuuid": "56333ceb-c9d1-4e99-93a9-ceb32f211a0d",
+		"culversBuuid": "d7d67a58-0292-4627-ae52-38f935f236b5",
+		"culversCids": "207360,208029,206816",
+		"validBid": "1111",
+		"invalidBuuid": "95657d70-e7e0-4c23-9e99-6b69b52f1234",
+		"invalidApiKey": "ABCDE6hyG3XrgdxNO2DiIwNUCj5bsweMclI12345",
+		"nandosBuuid": "95657d70-e7e0-4c23-9e99-6b69b52f1cb4",
+		"nandosCids": "304116,502157",
+		"nandosUid": "375856703"
+	},
+	"verifyPlatformAPIFeedbackNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"existingSubscriptionPlanID": "2222"
+	},
+	"verifyPlatformAPIMeta": {
+		"slug": "autoone",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"existingRedeemableId": "2367244",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"existingSubscriptionPlanID": "2222"
+	},
+	"verifyAPIv1GamingAchievements": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"kind": "Scratch n Match",
+		"level": "DESSERT",
+		"score": "10",
+		"gamingLevelId": "169"
+	},
+	"verifyAPIv1GamingAchievementsNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"kind": "Scratch n Match",
+		"level": "DESSERT",
+		"score": "10",
+		"gamingLevelId": "169"
+	},
+	"verifyAPIv1TransferLoyaltyPointsToUser": {
+		"slug": "autoseven",
+		"client": "ff6b9ce1134481a7f2865e7a362ee53368d15373b2cda98d48a9d77d6885bc7a",
+		"secret": "40fe4f7c43426f33daf485e355f31f400df4e6a6666e7db9bca0b740e499219a",
+		"apiKey": "ngt8MRL68s9zyDZdsy2i",
+		"amount": "50.00"
+	},
+	"verifyAPIv1TransferLoyaltyPointsToUserNegative": {
+		"slug": "autoseven",
+		"client": "ff6b9ce1134481a7f2865e7a362ee53368d15373b2cda98d48a9d77d6885bc7a",
+		"secret": "40fe4f7c43426f33daf485e355f31f400df4e6a6666e7db9bca0b740e499219a",
+		"apiKey": "ngt8MRL68s9zyDZdsy2i",
+		"amount": "50.0",
+		"designId": "586",
+		"epin": "6221",
+		"cardNumber": "2067450530000243"
+	},
+	"verifyAPIv1SocialCauseCampaign": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "10",
+		"donationType": "currency",
+		"itemToDonate": "5.00"
+	},
+	"verifyAPIv1SocialCauseCampaignNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"apiKey": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "10",
+		"donationType": "currency",
+		"itemToDonate": "5.00"
+	},
+	"verifyAPIv1GiftCard": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "10",
+		"designId": "580",
+		"transactionToken": "fake-valid-nonce",
+		"expDate": "0428",
+		"preferred": "true",
+		"locationId": "343008",
+		"tip": "5.0"
+	},
+	"verifyAPIv1GiftCardNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "10.0",
+		"designId": "580",
+		"transactionToken": "fake-valid-nonce",
+		"expDate": "0428",
+		"preferred": "true",
+		"locationId": "343008",
+		"tip": "5.0"
+	},
+	"verify_Create_update_delete_User_Relation": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"SQ_T3799_verifyUnownedApplePassesDeleteWorkerTest": {
+		"businessId": "562"
+	},
+	"T6967_testBasicAuthUserEndToEndFlow_PARLoyaltyMappingOnly": {
+		"slug": "automationthirtyone"
+	},
+	"T5725_verifyAuthCheckinNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verifyPosApiVoidMultipleRedemption": {
+		"slug": "autoone",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"redeemAmount": "2.00"
+	},
+	"verifySSOSignUpUserdetails": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verifySSOSignUpUserCheckinAndBalance": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verifySSOCheckinAndVoidCheckin": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"redeemAmount": "2.00"
+	},
+	"verifyAuthCheckinAgainstRecipet": {
+		"client": "98c9f6b6c352858f35b1cd9b0a889635a01f4192096104ff1d0c921ac3a5956b",
+		"secret": "feb3971446b65a853098a7487e13b6cad6f9cfa4f1e61ea52557931d35d972a9",
+		"redeemAmount": "2.00"
+	},
+	"verifyAuthOnlineRewardRedemption": {
+		"slug": "autotwo",
+		"client": "605e1ee5829746f51c01a314b42fc77eb36de98f944aac1366c6ed5dcdfb2804",
+		"secret": "28dfb57b0f8def64818f7471591eef16cec90be65b119cb387e882685a4b72fa"
+	},
+	"verifyAuthOnlineBankCurrencyRedemption": {
+		"slug": "autoone",
+		"locationKey": "82367593328c8666bdb2d0706400cc7f81c",
+		"client": "9e808e9cb14cf455cb11edc2a468f19fb800d9f895079d3dfd6d4bb34f77c12a",
+		"secret": "692908d165baf7ed00c745545a4d95bf1f6ad98d6428999cf85a56d30d267f70"
+	},
+	"verifyAuthOnlineCardBasedRedemption": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"numberOfVisit": "7"
+	},
+	"verifyAuthOnlineRedeemableRedemption": {
+		"slug": "autotwo",
+		"redeemable_id": "2367309",
+		"client": "605e1ee5829746f51c01a314b42fc77eb36de98f944aac1366c6ed5dcdfb2804",
+		"secret": "28dfb57b0f8def64818f7471591eef16cec90be65b119cb387e882685a4b72fa"
+	},
+	"verifyAuthCheckinAgainstReciept": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verify_Asynchronous_User_Update_Get_User_Session_Token": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"verify_forgot_password_and_fetch_user_balance": {
+		"slug": "autoone",
+		"redeemable_id": "2367593"
+	},
+	"verify_Redemption_Using_Redeemable": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50"
+	},
+	"verify_Redemption_Using_Visits": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50"
+	},
+	"verify_Redemption_Using_Banked_Currency": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50"
+	},
+	"verify_Redemption_Using_Reward_id": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593"
+	},
+	"verify_Gifting_Loyalty_Reward_User_to_User": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593"
+	},
+	"verify_Gifting_Loyalty_Amount_User_to_User": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50"
+	},
+	"verify_List_Deals": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"amount": "50",
+		"redeemable_uuid": "649c2f3e6f7f7f027b5f9a7ba6559134b8788ce4"
+	},
+	"Tc_6726_enrichOrderOnlineTest": {
+		"slug": "autotwo",
+		"client": "605e1ee5829746f51c01a314b42fc77eb36de98f944aac1366c6ed5dcdfb2804",
+		"secret": "28dfb57b0f8def64818f7471591eef16cec90be65b119cb387e882685a4b72fa",
+		"locationkey": "a46207e3fbec74a3099e6bde232f9a7a",
+		"redeemable_id": "2837068",
+		"adminKey": "uYQ8kKSYTp18XmV9XL2x",
+		"gamingLevelName": "slot",
+		"business_id": "1025"
+	},
+	"verify_Point_Conversion_User_account_history": {
+		"slug": "autothree",
+		"client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+		"secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+		"adminAuthorization": "atUUzYZBeZ_rxzC3Mq1Q",
+		"conversionRuleId": "17",
+		"points": "100"
+	},
+	"verify_Create_Checkins": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "autoone",
+		"location": "Daphne",
+		"locationid": "308706"
+	},
+	"verify_List_User_Offers": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"amount": "50",
+		"location_id": "308706"
+	},
+	"verifyCustomSegmentApi": {
+		"client": "98c9f6b6c352858f35b1cd9b0a889635a01f4192096104ff1d0c921ac3a5956b",
+		"secret": "feb3971446b65a853098a7487e13b6cad6f9cfa4f1e61ea52557931d35d972a9",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"locationKey": "5aea39eb0a4a227089cdcfdb20e8094b"
+	},
+	"wifiApiValidation": {
+		"slug": "autoone",
+		"client": "917619983d11511f9505f12580d03b578c9cf59f5d84ef6d5c867ec00f3affd6",
+		"secret": "76426f8f4099c6246b67fdd31cce74a4004f574e27dffecf85ff25471f028b01",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"locationId": "400299"
+	},
+	"T2308_RedeemableDistributionApiSegmentIdParameterValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "29001",
+		"slug": "autoone"
+	},
+	"T2309_RedeemableDistributionApiCampaignTypeParameterValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "29001",
+		"slug": "autoone"
+	},
+	"T2310_RedeemableDistributionApiCategoryParameterValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "29001",
+		"slug": "autoone"
+	},
+	"T2311_RedeemableDistributionApiNameParameterValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "29001",
+		"slug": "autoone"
+	},
+	"T2312_RedeemableDistributionApiExternalCampainIdParameterValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "29001",
+		"slug": "autoone"
+	},
+	"T2351_RedeemableDistributionApiExternalCampainIdParameterValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"slug": "autoone"
+	},
+	"T2296_SegmentListApiAdminPermissionValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"slug": "autoone"
+	},
+	"T2297_SegmentListApiAdminPermissionValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"slug": "autoone"
+	},
+	"verifyCustomSegmentCreationUpdationDeletionAddUserApi": {
+		"slug": "autoone",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"location_key": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"couponCampaignListValidation": {
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"location_key": "2289ae3cea6c9fc14ac745519b178e78",
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"slug": "autoone"
+	},
+	"T2352_ListPostDealsApiValidation": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"bearerToken": "f5a049405f4f73acf4ea55e891faef5fb8947cb14c7f3213129270cd50222ad2",
+		"authToken": "GExzssCc6_9DVte2YN38",
+		"usedDealRedeemableUuid": "83a6ceacc5cf3b5f708ccfc3071278968fde296a",
+		"scheduledDealRedeemableUuid": "9f63b97507e5df31c2151f53f2fff851e7511661",
+		"expiredDealRedeemableUuid": "17d8098d3529f79c53de89ef3e5d01723fd61fa1"
+	},
+	"T2395_DynamicCouponDistributionEmailvalidation": {
+		"adminAuthorization": "S6Hrr_asAepvyLRu4o86",
+		"email": "hardik.bhardwaj+1@partech.com",
+		"uuid": "73272f1f167cba48e101cd23d2c1cbb238f8c154"
+	},
+	"T2396_DynamicCouponDistributionUuidValidation": {
+		"adminAuthorization": "S6Hrr_asAepvyLRu4o86",
+		"email": "hardik.bhardwaj+1@partech.com",
+		"uuid": "73272f1f167cba48e101cd23d2c1cbb238f8c154"
+	},
+	"verifyPosApiActiveRedemption": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"Api2OldUserLoginLogout": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"Api2GiftCardApi": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"design_id": "581",
+		"locationid": "343008"
+	},
+	"Api2ChallengesPasscodesAndInvitationsApi": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"design_id": "581",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"businessMigrationUserApiValidation": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"businessAdminApiValidation": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"eclubAndFranchiseApiValidation": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"socialCauseCampaignsApiValidation": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"usersApiValidation": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"amount": "50"
+	},
+	"redemptionApiValidation": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"amount": "50",
+		"lifetimePointsEarned": "400.0",
+		"lifetimeRedeemedCount": "1"
+		},
+	"api2generateSingleScanCode": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "10",
+		"designId": "581",
+		"expDate": "0825",
+		"giftCardPaymentType": "GiftCard",
+		"creditCardPaymentType": "CreditCard",
+		"transaction_token": "transaction_token"
+	},
+	"api2generateSingleScanCodeNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "10",
+		"designId": "581",
+		"expDate": "0825",
+		"giftCardPaymentType": "GiftCard",
+		"creditCardPaymentType": "CreditCard",
+		"transactionToken": "transaction_token",
+		"invalidPaymentType": "Credit",
+		"invalidToken": "64069c3c10ec8278671e1dcadcff2ff01e75a25f8eb97ebac1eae5ce5076fb00",
+		"invalidClient": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6320",
+		"invalidSecret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e0"
+	},
+	"api2PaymentCards": {
+		"slug": "automationfifteen",
+		"client": "BD-XLYiy4MHIGkDVG0VP7pBcBhWrDxEZHZp2m1Xb3U0",
+		"secret": "5VZDplwu-W_dO-kcGD9dIS2QDH_xt2DfTx0R45yHPZg",
+		"heartlandPublicKey": "pkapi_cert_IK0iNjWm2RtOczqasr",
+		"adapterCode": "heartland",
+		"nicknameToUpdate": "Updated Name",
+		"preferrenceToUpdate": "false",
+		"deletionSuccessMessage": "Payment card has been deleted successfully.",
+		"deletionSuccessStatus": "success"
+	},
+	"api2PaymentCardsNegative": {
+		"slug": "automationfifteen",
+		"client": "BD-XLYiy4MHIGkDVG0VP7pBcBhWrDxEZHZp2m1Xb3U0",
+		"secret": "5VZDplwu-W_dO-kcGD9dIS2QDH_xt2DfTx0R45yHPZg",
+		"heartlandPublicKey": "pkapi_cert_IK0iNjWm2RtOczqasr",
+		"adapterCode": "heartland",
+		"nicknameToUpdate": "Updated Name",
+		"invalidToken": "64069c3c10ec8278671e1dcadcff2ff01e75a25f8eb97ebac1eae5ce5076fb00",
+		"invalidClient": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6320",
+		"invalidSecret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e0",
+		"invalidAdapterCode": "heart land",
+		"invalidPaymentCardUuid": "ceefa65f-b924-4c68-9f83-3f2f80819851"
+	},
+	"Api2SocialCauseCampaignAndNotificationsApi": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "10"
+	},
+	"verifyLocationConfiguration": {
+		"slug": "autoone",
+		"locationKey": "dddf512461c858f5be672969e5422b73"
+	},
+	"T2909_V5_Redemption": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"T2909_V5_RedemptionViaReward": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"T2909_redemptionCode1": {
+		"client": "a130a937b3a31b0e4f7b946aec893657c3ade0e58b09f4f98eb96f7630a0f584",
+		"secret": "baca3b19455044801bbff2b1ba806523ae4c00d71916e9fbb1cdd1102069f9cc",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "28936",
+		"locationKey": "d4cb0262fc5a74eac1f68e74d3c04e28"
+	},
+	"verifyFetchRedemptionCodeAuthApi": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"location_id": "e39d1b277424df7790cd2d9057f4b680",
+		"redeemed_points": "35",
+		"store_num": "66233",
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"location": "Daphne",
+		"whiteLabel": "whitelabel/",
+		"newPassword": "password@321",
+		"subtotal_amount": "25",
+		"receipt_amount": "25",
+		"item_amount": "25"
+	},
+	"verifyPointConversionAPI": {
+		"slug": "autothree",
+		"client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+		"secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+		"conversion_rule_id": "17",
+		"converted_value": "10.0",
+		"source_value": "100.0",
+		"adminAuthorization": "atUUzYZBeZ_rxzC3Mq1Q",
+		"points": "500"
+	},
+	"T3036_verifyNegativeScenariosOfAuthLogInApi": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidPassword": "password@123321",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3037_verifyNegativeScenariosOfAuthApiFetchAccountBalanceOfUser": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3038_verifyNegativeScenariosOfAuthApiSignup": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"minPassword": "pass@1",
+		"birthday": "1992-10-03",
+		"anniversary": "2010-10-01",
+		"signup_channel": "MobileFacebook",
+		"invite_code": "tests879444",
+		"password": "password@123",
+		"invalidPassword": "password@12",
+		"invalidBirthday": "1992-10-33",
+		"invalidSignup_channel": "MobileFace",
+		"invalidInvite_code": "qEautomation"
+	},
+	"T3039_verifyNegativeScenariosOfAuthApiListAvailableRewardsOfAGivenUser": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3040_verifyNegativeScenariosOfAuthApiFetchRedemptionCode": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"location_id": "e39d1b277424df7790cd2d9057f4b680",
+		"invalidReward_id": "12345",
+		"invalidRedeemed_points": "-9",
+		"invalidLocation_id": "987654321",
+		"redeemed_points": "10"
+	},
+	"T3041_verifyNegativeScenariosOfAuthApiForgotPassword": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3042_verifyNegativeScenariosOfAuthApfetchUpdatedUserInfo": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3054_verifyNegativeScenariosOfAuthApiVerifyUpdatedUserInfo": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"updateFName": "Fname",
+		"updateLName": "Lname"
+	},
+	"T3056_verifyNegativeScenariosOfAuthApiAccountHistory": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3057_verifyNegativeScenariosOfAuthApiChangePassword": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"newPassword": "password@1234",
+		"Password": "password@123",
+		"minPassword": "pas@1"
+	},
+	"T3058_verifyNegativeScenariosOfAuthApiGetResetPasswordTokenOfTheUser": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3059_verifyNegativeScenariosOfAuthApiEstimateLoyaltyPointsEarning": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"invalidSubtotal_amount": "-36.99",
+		"subtotal_amount": "25",
+		"zeroSubtotal_amount": "0"
+	},
+	"T3060_verifyNegativeScenariosOfAuthApiFetchUserBalance": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3061_verifyNegativeScenariosOfAuthApiPointConversionAPI": {
+		"slug": "autothree",
+		"client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+		"secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+		"conversion_rule_id": "17",
+		"converted_value": "1.0",
+		"source_value": "100.0",
+		"adminAuthorization": "atUUzYZBeZ_rxzC3Mq1Q",
+		"store_num": "123",
+		"option": "Point",
+		"points": "300",
+		"invalidClient": "7900361c2038e8a0448c2",
+		"invalidConversion_rule_id": "130",
+		"invalidConverted_value": "19.0",
+		"invalidSource_value": "1000.0",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3062_verifyNegativeScenariosOfAuthApiListAllDeals": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3063_verifyNegativeScenariosOfAuthApiSaveSelectedDeals": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3064_verifyNegativeScenariosOfAuthApiEstimatePointsEarning": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"subtotal_amount": "25",
+		"receipt_amount": "25",
+		"item_amount": "25",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"invalidReceipt_amount": "-25",
+		"invalidSubtotal_amount": "-25",
+		"invalidItem_amount": "-25"
+	},
+	"T3065_verifyNegativeScenariosOfAuthApiBalanceTimelines": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74"
+	},
+	"T3066_verifyNegativeScenariosOfAuthApiUserEnrollment": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"T3067_verifyNegativeScenariosOfAuthApiUserDisenrollment": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"T3068_verifyNegativeScenariosOfAuthApiFetchAvailableOffersOfTheUser": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidClient": "7900361c2038e8a0448c2ee596",
+		"invalidSecret": "f47f2973686a2c40b74",
+		"locationKey": "d4cb0262fc5a74eac1f68e74d3c04e28"
+	},
+	"T2808_verifyCustomSegmentCreationUpdationDeletionAddUserApiNegetiveFlow": {
+		"slug": "autoone",
+		"validAdminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidAdminAuthorization": "QWerty123UIOqwe",
+		"location_key": "f735a57be14aa9fdeb6fc9500875f359"
+	},
+	"T2908_verifytheV5checkin": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"T2903_verifyLocationConfigurationNegativeFlow": {
+		"slug": "autoone",
+		"invalidlocationKey": "f735a57be14aa9fdeb6fc9500875f3591"
+	},
+	"T2369_verifyCreateUserCreateCheckinNegativeFlow": {
+		"slug": "autoone",
+		"invalidlocationKey": "f735a57be14aa9fdeb6fc9500875f3591",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"redeemAmount": "5.00",
+		"file": "STAGE"
+	},
+	"verifyPosApiActiveRedemptionNegativeFlow": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"invalidlocationKey": "6fc9500875f3591"
+	},
+	"verifyProgramMeta": {
+		"locationKey": "f735a57be14aa9fdeb6fc9500875f359"
+	},
+	"verifyApplicableOffers": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "50",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"T2280_ecrmCheckin": {
+		"ecrmUrl": "/whitelabel/tastea/ecrm?",
+		"location": "Alhambra",
+		"slug": "tastea",
+		"locationKey": "5acf3c0b15d61217258c502973f227f1"
+	},
+	"verifyUserLookupFetchBalance": {
+		"locationKey": "f735a57be14aa9fdeb6fc9500875f359"
+	},
+	"verify_Api2_UserSignUp_Login_Logout_Negative": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "tastea",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"invalidclient": "5ed3c669a2c31304b066207507a32156462d9c1d4ed48dd1f2e773d78cbdbcb",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidsecret": "acf3f27dca79705dc14a1fdc63d84904ab90c76e97cf92326fae0dd04df9f9d"
+	},
+	"verify_FetchUserinfo_UpdateUserProfileNegative": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"invalidclient": "5ed3c669a2c31304b066207507a32156462d9c1d4ed48dd1f2e773d78cbdbcb",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidsecret": "acf3f27dca79705dc14a1fdc63d84904ab90c76e97cf92326fae0dd04df9f9d"
+	},
+	"verify_Create_update_delete_User_Relation_Negative": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "tastea",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"invalidclient": "5ed3c669a2c31304b066207507a32156462d9c1d4ed48dd1f2e773d78cbdbcb",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidsecret": "acf3f27dca79705dc14a1fdc63d84904ab90c76e97cf92326fae0dd04df9f9d"
+	},
+	"verify_Asynchronous_User_Update_Get_User_Session_Token_Negative": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "tastea",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"invalidclient": "5ed3c669a2c31304b066207507a32156462d9c1d4ed48dd1f2e773d78cbdbcbhrtrsfrdh",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidsecret": "acf3f27dca79705dc14a1fdc63d84904ab90c76e97cf92326fae0dd04df9f9d"
+	},
+	"verify_forgot_password_and_fetch_user_balance_Negative": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "tastea",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"invalidclient": "5ed3c669a2c31304b066207507a32156462d9c1d4ed48dd1f2e773d78cbdbcb",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidsecret": "acf3f27dca79705dc14a1fdc63d84904ab90c76e97cf92326fae0dd04df9f9d"
+	},
+	"Api2OldUserLoginLogoutNegative": {
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidclient": "tskuslsyuw",
+		"invalidsecret": "ghdfwydfuw"
+	},
+	"verify_List_Deals_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"amount": "50",
+		"redeemable_uuid": "649c2f3e6f7f7f027b5f9a7ba6559134b8788ce4",
+		"invalidclient": "ajgdjyqegd",
+		"invalidsecret": "llkhyft"
+	},
+	"verify_Point_Conversion_User_account_history_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"conversionRuleId": "17",
+		"invalidclient": "bhfh",
+		"invalidsecret": "jkthj"
+	},
+	"verify_Gifting_Loyalty_Reward_User_to_User_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"invalidclient": "jnhhg",
+		"invalidsecret": "lkmkhjhgfd"
+	},
+	"verify_Gifting_Loyalty_Amount_User_to_User_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50",
+		"invalidclient": "jhjhdrfl",
+		"invalidsecret": "hjhf"
+	},
+	"verify_Redemption_Using_Redeemable_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50",
+		"invalidclient": "jhjhdrfl",
+		"invalidsecret": "hjhf"
+	},
+	"verify_Redemption_Using_Visits_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50",
+		"invalidclient": "jhjhdrfl",
+		"invalidsecret": "hjhf"
+	},
+	"verify_Redemption_Using_Banked_Currency_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50",
+		"invalidclient": "jhjhdrfl",
+		"invalidsecret": "hjhf"
+	},
+	"verify_Redemption_Using_Reward_id_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367593",
+		"invalidclient": "jhjhdrfl",
+		"invalidsecret": "hjhf"
+	},
+	"verifyPosApiVoidMultipleRedemptionNegative": {
+		"slug": "autoone",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"redeemAmount": "2.00",
+		"invalidlocationKey": "12"
+	},
+	"verifyApplicableOffersNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "50",
+		"locationKey": "f735a57be14aa9fdeb6fc9500875f359",
+		"invalidlocationKey": "f735a57be14aa9fdeb6fc9500875f3591"
+	},
+	"verifyUserLookupFetchBalanceNegative": {
+		"slug": "autoone",
+		"locationKey": "e39d1b277424df7790cd2d9057f4b680",
+		"invalidlocationKey": "f735a57be14aa9fdeb6fc9500875f3591"
+	},
+	"verifyProgramMetaNegative": {
+		"locationKey": "f735a57be14aa9fdeb6fc9500875f359",
+		"invalidlocationKey": "f735a57be14aa9fdeb6fc9500875f3591"
+	},
+	"verify_Create_Checkins_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"instanceUrl": "https://dashboard.staging.punchh.io",
+		"whiteLabel": "whitelabel/",
+		"slug": "autoone",
+		"location": "Daphne",
+		"locationid": "308706",
+		"invalidclient": "jhjhdrfl",
+		"invalidsecret": "hjhf",
+		"invalidlocationid": "1"
+	},
+	"Api2GiftCardApiNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"design_id": "581",
+		"locationid": "343008",
+		"invalidclient": "ydyet7e",
+		"invalidsecret": "jikey7",
+		"invaliddesign": "1",
+		"invalidlocationid": "1"
+	},
+	"Api2SocialCauseCampaignAndNotificationsNegativeApi": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidAdminAuthorization": "1",
+		"invalidclient": "ydyet7e",
+		"invalidsecret": "jikey7",
+		"amount": "10"
+	},
+	"Api2NotificationsNegativeApi": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidAdminAuthorization": "1",
+		"invalidclient": "ydyet7e",
+		"invalidsecret": "jikey7",
+		"amount": "10"
+	},
+	"Api2ChallengesPasscodesAndInvitationsNegativeApi": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"design_id": "582",
+		"invaliddesign": "1",
+		"invalidclient": "hhsgd",
+		"invalidsecret": "mhdhsg"
+	},
+	"Api2EpinClaimTokenInvitationsNegativeApi": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"design_id": "581",
+		"invaliddesign": "1",
+		"invalidclient": "hhsgd",
+		"invalidsecret": "mhdhsg"
+	},
+	"wifiApiValidationnegative": {
+		"slug": "autoone",
+		"client": "917619983d11511f9505f12580d03b578c9cf59f5d84ef6d5c867ec00f3affd6",
+		"secret": "76426f8f4099c6246b67fdd31cce74a4004f574e27dffecf85ff25471f028b01",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"locationId": "400299",
+		"invalidclient": "1nwjdh",
+		"invalidsecret": "1yhutduy",
+		"invalidlocationId": "1",
+		"invalidadminAuthorization": "a"
+	},
+	"locationsApiValidation": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"locationsApiValidationNegative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "mXs1DRw6n"
+	},
+	"usersApiValidationNegative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"amount": "50",
+		"invalidclient": "jgh",
+		"invalidsecret": "nhjgh",
+		"invalidamount": "a",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"redemptionApiValidationNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "8mNJa3w",
+		"amount": "50",
+		"invalidClient": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6320",
+		"invalidSecret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e0",
+		"invalidToken": "AEMlRPxiiGTiuVZv0X6xTaO3DQUNJhkLUz3iLKHhr90"
+	},
+	"T3088_verifyCustomSegmentCreationUpdationDeletionAddUserApiNegativeFlow": {
+		"slug": "autoone",
+		"validAdminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidAdminAuthorization": "bJzb3avjx12345",
+		"location_key": "e39d1b277424df7790cd2d9057f4b680"
+	},
+	"T3138_AnonymiseUserCreationAndVerificationViaUserLookUpApiTest": {
+		"slug": "winghouse",
+		"locationkey": "d3d83d5e5ed352aa2366a07e7f73d74e"
+	},
+	"SQ_T3802_verify_applePassURL_Api2_Test": {
+		"slug": "saladworks",
+		"client": "eb7066bdb90bc0c67e5eb988e5c0a2697f3c6de6b162d69a6565db2eaa4c4aa7",
+		"secret": "b7f962782f5a22d54715173f3942fb57dca405392cd066df70cf6f9ce457660f"
+	},
+	"itemRecommendationServiceApi": {
+		"client": "6a70b3a5dfa2f4efdd03e5e974e794f97d76cb184be030ccc1c010dddcadadb3",
+		"secret": "2316d19a52d51a5cf7c3c2361f26382fb04a695454cff9768cfe1af88b93fab3",
+		"bid": "600",
+		"eid": "alsfpgrowth",
+		"cid": "398304,634039,202410"
+	},
+	"T3195_CockpitApi": {
+		"slug": "autoone",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"business_ID": "1024"
+	},
+	"T4954_fetch_active_purchasable_subscription_plan": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1"
+	},
+	"T4955_fetch_active_purchasable_subscription_plan_Negative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"invalidclient": "",
+		"invalidsecret": "mh2390dhsg",
+		"unprocessableClient": "V4xQcURTdBrTEYbZr4vmvB93-xqtk3Vx2TP3Wai8juk",
+		"unprocessableSecret": "LtJAB_jesz8TVNeW48UTQS5rEmKCgO2klwh92_HwBiM"
+	},
+	"T4952_mark_offers_as_read": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "2367244",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"event_type": "read_through_app"
+	},
+	"T4953_mark_offers_as_read_Negative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"redeemable_id": "2367244",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"event_type": "read_through_app",
+		"nullClient": "",
+		"invalidclient": "wecfvgbhnjkuliop",
+		"invalidReward": "432678",
+		"invalid_event_type": "read_through_web",
+		"invalidsecret": "wecfvgbhnjkutyup",
+		"location_id": "308706"
+	},
+	"locationsApiValidatioNegative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "mXs1DRw6n"
+	},
+	"businessMigrationUserApiValidationNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "mXs1DRw6n",
+		"invalidCardNumber": "12345",
+		"invalidEmail": "api2@test.com",
+		"invalidClient": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6320",
+		"invalidSecret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e0"
+	},
+	"businessAdminApiValidationNegative": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "mXs1DRw6nN"
+	},
+	"eclubAndFranchiseApiValidationNegative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "mXs1DRw6nN"
+	},
+	"socialCauseCampaignsApiValidationNegative": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"invalidadminAuthorization": "mXs1DRw6"
+	},
+	"T5204_verifyFetchCheckinByExternalId": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"T5205_SSO_token": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3"
+	},
+	"T5688_verifyApiV1UserSignupLogin": {
+		"slug": "autoone",
+		"punchhAppDeviceid": "3443534srwerwersdf23437",
+		"amount": "60"
+	},
+	"T5687_verifyApiV1Negative": {
+		"slug": "autoone",
+		"punchhAppDeviceid": "3443534srwerwersdf23437",
+		"amount": "60",
+		"existingSubscriptionPlanID": "2222"
+	},
+	"T5189_T5190_T5194_VerifyUserSignUpWithCommunicationChannelAsEmail": {
+		"slug": "automationtwenty",
+		"identityBusinessID": "20"
+	},
+	"PPCC_T734_verifyFetchConfigAndHeartBeatApi": {
+		"locationKey": "fe4ce3cbe2bf2648e7c6e58494586c87",
+		"packageVersion": "08.08.08",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28"
+	},
+	"SQ_T6153_verifyProvisionAndDeprovisionLocationApi": {
+		"locationName": "VerifyProvisionAndDeprovisionLocationApi",
+		"packageVersionId": "6412fb57-151e-41cd-8ba3-f837b3012b9b",
+		"slug": "genghisgrill"
+	},
+	"SQ_T6317_verifyTheResponseOfPolicyAPIs": {
+		"slug": "genghisgrill"
+	},
+	"SQ_T6318_verifyTheFlowOfDuplicatePolicyAPI": {
+		"slug": "genghisgrill"
+	},
+	"SQ_T6154_verifyProvisionLocationApiForNonExistingPolicy": {
+		"slug": "genghisgrill",
+		"locationName": "VerifyProvisionLocationApiForNonExistingPolicy",
+		"packageVersionId": "6412fb57-151e-41cd-8ba3-f837b3012b9b",
+		"errorMsg": "[Given Policy does not exist.]"
+	},
+	"SQ_T6155_verifyProvisionLocationApiNonExistingLocation": {
+		"slug": "genghisgrill",
+		"packageVersionId": "6412fb57-151e-41cd-8ba3-f837b3012b9b",
+		"errorMsg": "[Only deprovisioned and approved locations can be provisioned., {unavailable_locations=[0], disallowed_locations=[]}]"
+	},
+	"SQ_T6193_verifyProvisionLocationApiForInvalidAuthCode": {
+		"slug": "genghisgrill",
+		"locationName": "VerifyProvisionLocationApiForInvalidAuthCode",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28"
+	},
+	"SQ_T6194_verifyProvisionAndDeprovisionLocationApiForMultipleLocations": {
+		"firstLocationName": "SQ_T6194_first_location",
+		"secondLocationName": "SQ_T6194_second_location",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28",
+		"successMsg": "Locations Provisioned Successfully.",
+		"slug": "genghisgrill"
+	},
+	"SQ_T6195_verifyMultipleTimesProvisionForSameLocation": {
+		"locationName": "SQ-T6195 location",
+		"slug": "genghisgrill",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28",
+		"successMsg": "Locations Provisioned Successfully.",
+		"errorMsg": "[Only deprovisioned and approved locations can be provisioned., {unavailable_locations=[], disallowed_locations={locations}}]"
+	},
+	"SQ_T6285_VerifyUpdatePackageAPIWithInvalidToken": {
+		"packageId": "09fe3a1e-0e26-45d0-9697-6d83107114a8"
+	},
+	"SQ_T6584_verifyTheFlowOfCancelUpdateAPIForALocation": {
+		"slug": "genghisgrill",
+		"locationName": "PPCC Automation Location Cancel Update API Test",
+		"packageVersionId": "6412fb57-151e-41cd-8ba3-f837b3012b9b",
+		"packageVersionRandom": "09.09.09",
+		"packageVersionIdRandom": "ce0fd1cf-818b-4162-9fd7-8155baa7ab4e",
+		"lastUpdatedAtRandom": "2025-07-25T11:54:29.810Z",
+		"locationKey": "06029d3b04215302f449e732f0b2f9d7",
+		"packageVersion": "_1._1._1-1"
+	},
+	"SQ_T6585_verifyTheFlowOfChangePolicyAPIForALocation": {
+		"slug": "genghisgrill",
+		"locationName": "PPCC Automation Location Change Policy API Test",
+		"packageVersionId": "6412fb57-151e-41cd-8ba3-f837b3012b9b",
+		"packageVersionRandom": "09.09.09",
+		"packageVersionIdRandom": "ce0fd1cf-818b-4162-9fd7-8155baa7ab4e",
+		"lastUpdatedAtRandom": "2025-07-25T11:54:29.810Z",
+		"locationKey": "5adcbb4ff4f39df727bf724f333ef807",
+		"packageVersion": "_1._1._1-1"
+	},
+	"SQ_T6586_verifyTheFlowOfConfigOverrideApiForALocation": {
+		"slug": "genghisgrill",
+		"locationName": "PPCC Automation Location Config Override API Test",
+		"locationKey": "7b8b373db4e9a32dd964b90f1fc3eb64",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28"
+	},
+	"SQ_T6587_verifyTheFlowOfInitiateUpdateAPIForALocation": {
+		"slug": "genghisgrill",
+		"locationName": "PPCC Automation Location Initiate Update Api Test",
+		"packageVersionId": "6412fb57-151e-41cd-8ba3-f837b3012b9b",
+		"packageVersionRandom": "09.09.09",
+		"packageVersionIdRandom": "ce0fd1cf-818b-4162-9fd7-8155baa7ab4e",
+		"lastUpdatedAtRandom": "2025-07-25T11:54:29.810Z",
+		"locationKey": "9c7909884be37173e2f00a8b7789b122",
+		"packageVersion": "_1._1._1-1"
+	},
+	"SQ_T6588_verifyTheFlowOfRemoteUpgradeApiForALocation": {
+		"slug": "genghisgrill",
+		"locationKey": "2b934c274ab76dd086c278ad12532d94",
+		"locationName": "PPCC Automation Location Remote Upgrade Api Test",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28",
+		"packageVersionRandom": "08.08.09",
+		"packageVersionIdRandom": "4b789809-36fb-490f-9c20-3164df250a20",
+		"lastUpdatedAtRandom": "2025-03-17T11:54:29.810Z",
+		"packageVersionforRemoteUpgrade": "_3-Test-Store-pp.6",
+		"packageVersionIdforRemoteUpgrade": "3ee73c09-e2e2-47bb-8c34-f44fc5c991fb"
+	},
+	"SQ_T837_VerifyResponsesOfPackageServiceAPIs": {
+		"version": "1.1.1.1"
+	},
+	"SQ_T6196_T6197_verifyTheResponseOfFetchConfigAndLocationListingAPIAfterOverrideConfig": {
+		"locationName": "SQ-T6197",
+		"locationKey": "de5dd039a8e673a989c79aa08f89f6f4",
+		"packageVersionId": "4b789809-36fb-490f-9c20-3164df250a28",
+		"slug": "genghisgrill"
+	},
+	"SQ_T5859_AdvancedAuth_Punchh_SignIn_API2_Test": {
+		"slug": "automationtwenty"
+	},
+	"AA_Signup_AA_SignIn_Update_Test": {
+		"slug": "automationtwenty",
+		"phoneNumber": "8109175140",
+        "business_id": "1123"
+	},
+	"AA_Signup_Punchh_SignIn_Test": {
+		"slug": "automationtwenty",
+		"phoneNumber": "8109175140"
+	},
+	"Punchh_Signup_Punchh_SignIn_Update_Test": {
+		"slug": "automationtwenty",
+		"phoneNumber": "8109175140"
+	},
+	"Punchh_Signup_AA_SignIn_Update_Test": {
+		"slug": "automationtwenty",
+		"phoneNumber": "8109175140",
+        "business_id": "1123"
+	},
+	"SQ_T5855_AdvancedAuth_Punchh_SignIn_API1_Test": {
+		"slug": "automationtwenty"
+	},
+	"identityServiceApiTests": {
+		"slug": "saladworks"
+	},
+	"SQ_T5858_AdvancedAuth_Punchh_SignIn_API_Auth_Test": {
+		"slug": "automationtwenty"
+	},
+	"SQ_T5924_AdvanceAuthUserUpdateSync_Auth": {
+		"slug": "automationtwenty"
+	},
+	"SQ_T5916_AdvanceAuthUserUpdateSync_API1": {
+		"slug": "automationtwenty"
+	},
+	"SQ_T5923_AdvanceAuthUserUpdateSync_API2": {
+		"slug": "automationtwenty"
+	},
+	"SQ_T6027_Verify_AdvanceAuthConfig_MetaAPI": {
+		"slug": "automationtwenty",
+		"clientAdvanceAuthOff": "7b64f9d947c7677339a0d8db9d4a781d5fbb376c90b5b2982d33fff98a88e62c",
+		"secretAdvanceAuthOff": "27f6efda7da28b29c318bf945b30d0c695ece2368ec26a24ad67c8d877e4f602"
+	},
+	"SQ_T2688_Api2dUserLoginInvalidVerificationMode": {
+		"slug": "autoone",
+		"validate_mode_or_token": "verification_mode"
+	},
+	"SQ_T2689_Api2dUserLoginInvalidFirebaseToken": {
+		"slug": "autoone",
+		"validate_mode_or_token": "verification_mode"
+	},
+	"LPE_T2242Flagtrue": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "50"
+	},
+	"SQ_T6474_NewSupportPointsGiftingApiValidation": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationkey": "5a965a093d2f779435dc15ab1af93f94",
+		"adminAuthorization": "jhDhfGSr4LfsLJysh1AY",
+		"points": "80"
+	},
+	"SQ_T6475_NewSupportRewardGiftingApiValidation": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"locationkey": "5a965a093d2f779435dc15ab1af93f94",
+		"adminAuthorization": "jhDhfGSr4LfsLJysh1AY",
+		"redeemable_id": "2367244",
+		"end_date": "2025-07-31"
+	},
+	"T7268_supportGiftingPointToCurrency": {
+		"slug": "autoone",
+		"rewardAmount": "10",
+		"redeemableId": "2367244",
+		"endDate": "2025-07-31",
+		"points": "10"
+	},
+	"T7268_supportGiftingPointUnlockStagedAndPointToReward": {
+       	"slug": "autotwo",
+		"points": "10",
+		"slug2": "autosix",
+		"businessId2": "1038",
+		"client2": "78bcab40b5399a4f86a11531b364d859be2dbdc08a1955bfc5f05a942d3597bb",
+		"secret2": "e0005d10822f44489cc8c9a9b33fd93db83b748590d91cc656c0369f09fc8b4b",
+		"adminAuthorization2": "HzqveepdJiA8q577so6p",
+		"redeemableId": "2367524",
+		"endDate": "2025-07-31"
+	},
+	"T7268_supportGiftingPointToManual": {
+		"slug": "autothree",
+		"rewardAmount": "10",
+		"redeemableId": "2367247",
+		"endDate": "2025-07-31",
+		"points": "10"
+	},
+	"SQ_T6529_NewSupportGiftingApiValidationWithFlagFalse": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"business_id": "1024",
+		"dbFlag1": "enable_optimised_support_gifting",
+		"adminAuthorization": "jhDhfGSr4LfsLJysh1AY",
+		"points": "80"
+	},
+	"SQ_T6530_NewSupportGiftingApiIncorrectJsonValidation": {
+		"slug": "autoone",
+		"points": "80"
+	},
+	"SQ_T6531_NewSupportGiftingApiIncorrectAdminKeyValidation": {
+		"slug": "autoone",
+		"invalidAdminAuthorization": "3UhEg4LfsLJysh1AY111",
+		"blankAdminAuthorization": "",
+		"points": "80"
+	},
+	"SQ_T6609_DefaultValueOfExcludeMembershipPointsInSupportApi": {
+		"slug": "autoone",
+		"points": "80"
+	},
+	"SQ_T6610_ExcludeMembershipPointsValueAsFalseInSupportApi": {
+		"slug": "autoone",
+		"points": "80"
+	},
+	"SQ_T6611_ExcludeMembershipPointsValueAsTrueInSupportApi": {
+		"slug": "autoone",
+		"points": "80"
+	},
+	"SQ_T6612_SupportRewardGiftingApiWithExcludeFlag": {
+		"slug": "autoone",
+		"redeemable_id": "2367244",
+		"end_date": "2025-07-31"
+	},
+	"SQ_T6855_NewSupportCurrencyGiftingApiValidation": {
+		"slug": "autoseven",
+		"client": "ff6b9ce1134481a7f2865e7a362ee53368d15373b2cda98d48a9d77d6885bc7a",
+		"secret": "40fe4f7c43426f33daf485e355f31f400df4e6a6666e7db9bca0b740e499219a",
+		"adminAuthorization": "xx64-xFw5EoRy-6CFfoA",
+		"rewardAmount": "2"
+	},
+	"SQ_T6856_NewSupportVisitGiftingApiValidation": {
+		"slug": "autofour",
+		"visits": "5"
+	},
+	"SQ_T6857_NewSupportCurrencyGiftingIncorrectAmountValidation": {
+		"slug": "autoseven",
+		"rewardAmount1": "",
+		"rewardAmount2": "abcd"
+	},
+	"TransferFlagOn":{
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"redeemable_id": "2367244",
+		"amount": "20.00",
+		"points": "10",
+		"rewardName": "base redeemable"
+	},
+	"transferFlagOff":{
+		"slug": "autoone",
+		"business_id": "1024",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "20.00",
+		"points": "20",
+		"redeemable_id": "2367244",
+		"rewardName": "base redeemable"
+	},
+	"T6936_VerifyChallengeOptInAPIs": {
+		"slug": "autoone",
+		"valid_campaign_id": "186281",
+		"dbFlag1": "has_challenges",
+		"dbFlag2": "enable_optin_for_challenges",
+		"dbFlag3": "explicit_opt_in"
+	},
+	"T6944_VerifyChallengeOptInAPI2": {
+		"slug": "autoone",
+		"valid_campaign_id": "186281",
+		"dbFlag1": "has_challenges",
+		"dbFlag2": "enable_optin_for_challenges",
+		"dbFlag3": "explicit_opt_in"
+	},
+	"T7362_verifyChallengeOptInOptOutOnOldCampaign": {
+        "slug": "autothree",
+        "oldChallengeCampId": "844672",
+        "dbFlag1": "has_challenges",
+        "dbFlag2": "enable_optin_for_challenges",
+        "dbFlag3": "explicit_opt_in",
+        "dbFlag4": "enable_optout_for_challenges"
+    },
+	"SQ_T7112_SQ_T7115_verifyFetchActiveGamesListSuccess": {
+	    "slug": "autothree",
+	    "client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+	    "secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+	    "page": "1",
+	    "per_page": "20",
+	    "channel": "mobile"
+  	},
+	"SQ_T7113_verifyFetchGamesListEmpty": {
+	    "slug": "automationseventeen",
+	    "client": "Fdya1_JHT4lPjOYwT7dA6aP_HKAaRwUIeDLunVy3dqM",
+	    "secret": "we4XJ67wqBN3ACH_5EZsBqJxhronu4Vqzs2VIeTYnQc",
+	    "page": "1",
+	    "per_page": "20",
+	    "channel": ""
+  	},
+  	"SQ_T7120_verifyClientErrors": {
+	    "slug": "autothree",
+	    "client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+	    "invalid_client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc68",
+	    "secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+	    "page": "1",
+	    "per_page": "20",
+	    "channel": "mobile"
+  	},
+	"SQ_T7114_verifyAuthTokenErrors": {
+	    "slug": "autothree",
+	    "client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+	    "secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+	    "invalid_authToken": "lPGo4_vs1hw3Lqa3gGHCR4miMfKha0z83HgV_E0OrEs4",
+	    "page": "1",
+	    "per_page": "20",
+	    "channel": "mobile"
+  	},
+ 	"SQ_T7116_verifyPaginationDefaultsAndLimits": {
+	    "slug": "autothree",
+	    "client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+	    "secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+	    "invalid_authToken": "lPGo4_vs1hw3Lqa3gGHCR4miMfKha0z83HgV_E0OrEs4",
+	    "invalid_page": "-1",
+	    "invalid_per_page": "200",
+	    "channel": "mobile"
+  	},
+  	"SQ_T7117_SQ_T7118_verifyApi2EndpointStructure": {
+	    "slug": "autothree",
+	    "client": "acb26dd4305579f3aa2af51c9d2eb3c3db3b20bc9cea20503378df991b427fc6",
+	    "secret": "5b55bbe58affee6bcc1dadb09ad6154834ad6aa11d68fc93e139706066719444",
+	    "invalid_authToken": "lPGo4_vs1hw3Lqa3gGHCR4miMfKha0z83HgV_E0OrEs4",
+	    "page": "1",
+	    "per_page": "20",
+	    "channel": "mobile"
+  	},
+    "T6954_T6955_T6956_testUpdateUserSyncFlows_BasicAuth": {
+      "slug": "automationthirtyone"
+    },
+    "T6968_testBasicAuthUserEndToEndFlow_PAROrderingMappingOnly": {
+      "slug": "mapp",
+      "message1": "If the email exists, a reset email will be sent.",
+      "trueRespTokenMsg": "Password reset token generated successfully.",
+      "incorrect_info": "Incorrect Information Submitted"
+    },
+	"SQ_T7102_FetchSocialCauseCampaignDetailsWithAllParametrization": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_api_parameterization",
+		"adminAuthorization": "EuPEXqjeYKu8bYBUE5fs",
+		"amount": "5"
+	},
+	"SQ_T7103_FetchSocialCauseCampaignDetailsWithSelectedParametrization": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_api_parameterization",
+		"adminAuthorization": "EuPEXqjeYKu8bYBUE5fs",
+		"amount": "5"
+	},
+	"SQ_T7104_FetchSocialCauseCampaignDetailsWithInvalidParametrization": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_api_parameterization",
+		"adminAuthorization": "EuPEXqjeYKu8bYBUE5fs",
+		"amount": "5"
+	},
+    "T6971_enableDisableBasicAuth": {
+      "slug": "automationeighteen",
+      "encryptedEnabledAdvanceAuth": "bRDTRRnYMdOGeqqW1S+geGTOk/HJLFT0DcGfuHl2ENXWsTuHdjgPauKVfJ1Ck3fUQCthYFI53CY36g+L1pVmHNLG03SpHrr5D8ncBMZVuiPuyu2/oolUy234zLwx3l7KGGsFOnXecraanWzUVKucgKXGIeTOoFPjZb22Akh50TvKXuZgwlCywI0H7IMIBWDipxEExQAtvRFohyqScxdKcrVrmokBhMMpvgYSxom5N0NucILFl6nK0oWH7sw23INib9tPhsVasRr1PIMMi9RzcIG+YmRrCrLg+igo+C4W8HtWYU11AjIUnov/Y0+dZQGRCSxIFDMH7yeskRUE/t29Vh49slwj4Lwax/c4lagaKgekgBrzPclpOqjLDeMaFL2eglE/--jCuWbYAzOlVza4mo--yFB1MHT6kxoe7yNsEqZktA==",
+      "encryptedDisabledAdvanceAuth": "hpN7G+M6jBz7ICH/JDPzSf3+CEbDyUnQ6n7x2dA1K5xI0aFnyhByVjh4QSYc+yckYsjvy1MLmYSCsBgvVQub00oyXKq7ZCGCNcbAKBrn+c3mIfHgXinXrZt2z2xdOu9lPjNs3P3QCswU1gUDoZr1IWrR7j2km6fukgBhB/MSScu2vi/FHz0Jj5vL0hzkASaaE3ZhQdLBvmCuo/v8mjxuKNcFwnoFJbj1sjoYEnyuJZRLA4iik52C6HtLIE+z1q4IOmcpxZAFFJJ6tnQBobiqLfNY83ao7WJd9tZob6365TDE7P+vnDDmUOj1hEFxf/EZe5mqjaTwTlCMsZPfbvrUmA0VAaNEuRaB7F9VofKkMfYkUeqUFdyxbMn+3GwfsencLqjoPQ==--shgTN4Iqhbyutt3o--XXrlRr7H1vUldkjJz/Qvkg==",
+      "encryptedDisabledBasicAuth":"mODF4St2mT9AMQvTJL+FWT/qrBwfcJgrgdyTcToHq9LQ/FfLb8Rg9A5aS6a475bmCe+o3GOupEEVlIbwXyj0QMpJEoYbazf5a2Bcj02DTbAqo0q1XpyFPiPymuqQAaKIPxBGjjcgNJp3zSjuXwsoviIT4su7SqOHWDMcQPL40X1k0tbYIgVxZQICtbHJjzD9Vo2Ytv/jfo8zl9aUoVSMPS1Xw1gkvloZ9bas2+9IalrA2ZxVHA9n38z9HogVgjO+kTNsSE5OWOer5Fxb3rX3cxA6iymMN3K4ZdmDMHdxcF32H1Ohyx7reMZN28J6THhPG6QTSXu9CN4XvaIinmsTgx9FelJ22qTTUN5X9kveUfkkZe5WhHhBOQtCSB6EQTqpCRG9JA==--DRKT/qaYIHfaaaql--qrUStFCJjvDtZT1uBTNvRQ==",
+      "encryptedBothBasicAndAdvanceAuthDisabled":"yKUZZt0Jac88TC5dNB5s3ESk/7Bj2Xgk8ArF3HqNALr815vetCt/2haoKlp+7oGlFkrt7LBGPLma0rSZjSlH44/AaPnSpQ0q2v3VXr1UuU8ULwRj4KQJql8U9A3BXKv/olLGr5v7++wNj3smdK91uGBZHWTVp9CXZPBF6NFNdOmZ+FBl/CvVbbO4F+rgHdDhjL3LNZC1TvoXAdeJ7JZykFzh0TUsneLCgDLarsAlcZkmpQ1LWK0nlLK5ca9kxN6dulbf9+pRYbk2mJd6MMZcL4jCvKt4C1SfobSzNJfS4aicL2SqtUAzKE+6X0azujat85TVosw4MKQSXOMq+MCfR+IpKAD1r9CqT9uXv28A6qLW3s5S5+K6TVHvPOGOtVQ9+XAaFt8=--KnuOUndfGu9/4nAy--V9OkFVaA5X4HOyf1ScSvuw=="
+    },
+	"SQ_T7190_StateCodesApiValidAdmin": {
+		"slug": "stim12",
+		"client": "r6PmOSrrMBicuh819zJTCXHGJowPI0Z7o1We6SipUME",
+		"secret": "mP4q9dqr9Mp2CjCLGaesAxVKZTDgIAvXFsi2h5FxLBI",
+		"adminAuthorization": "MrLuP677tsrUnTvACVpV"
+	},			
+	"SQ_T7191_StateCodesApiInvalidAdmin": {
+		"slug": "stim12",
+		"client": "r6PmOSrrMBicuh819zJTCXHGJowPI0Z7o1We6SipUME",
+		"secret": "mP4q9dqr9Mp2CjCLGaesAxVKZTDgIAvXFsi2h5FxLBI",
+		"invalidAdminAuthorization": "MrLuP677tsrUnTvACVpl"
+	},
+	"verifyTheTenantAccessOnUnifiedDashboard": {
+		"emailId": "amanj7366@gmail.com",
+		"password": "6JoEDl1uvi6ECwb9TY51bQ=="
+	},
+	"SQ_7215_verifyPOSUsersSearchWithSST": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_api_parameterization",
+		"paymentType": "CreditCard",
+		"transaction_token": "transaction_token",
+		"location": "76b25f05ea1bdd4fa097cc5ebcf31cde"
+	},
+	"SQ_7216_verifyPOSUsersSearchWithCstore": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_cstore_account_balance",
+		"location": "76b25f05ea1bdd4fa097cc5ebcf31cde"
+	},
+	"SQ_7217_verifyPOSUsersSearchWithCompleteAccount": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_cstore_account_balance",
+		"location": "76b25f05ea1bdd4fa097cc5ebcf31cde"
+	},
+	"SQ_7218_verifyPOSUsersSearchWithInvalidDetails": {
+		"slug": "caseys",
+		"client": "42925e31c9e56f45f670e0a738c4c8f25bbfb2c59670e505ef6809d19ee12263",
+		"secret": "1455a34eec39547cc51816612df536586fc7c098621b841860f1d9b5b8f3b36f",
+		"business_id": "5",
+		"dbFlag": "enable_api_parameterization",
+		"location": "76b25f05ea1bdd4fa097cc5ebcf31cde",
+		"invalidLocation": "76b25f05ea1bdd4fa097",
+		"invalidSingleScanToken": "A99CD638A4D733C5CD6D"
+	},
+	"T536_validateEerrorHandlingForInvalidRequestsInNewSupportGiftingApi": {
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"slug": "autoone",
+		"points": "10",
+		"dectivatedRedeemable_id" : "9171737",
+		"location_id" : "402545"
+	},
+	"LPET2827_ForceRedemptionFlagEnabled": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"business_id": "1024",
+		"comment": "Force redemption test",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "200",
+		"points": "10",
+		"dbFlag": "generate_uuid_for_force_redemption",
+		"redeemable_id": "2367244"
+	},
+	"LPET2829_ForceRedemptionFlagDisabled": {
+		"slug": "autoone",
+		"client": "6467217411ef2fd996169b44752a970c7d516bc5da6463bccea482c6b8bd6328",
+		"secret": "81be3eb6cb7c2a0db61c3dd2ebfd2712433f0bd5ea9a19e9400b5a631c18b4e1",
+		"business_id": "1024",
+		"comment": "Force redemption test",
+		"adminAuthorization": "mXs1DRw6nNwK9jxBYmr3",
+		"amount": "200",
+		"points": "10",
+		"dbFlag": "generate_uuid_for_force_redemption",
+		"redeemable_id": "2367244"
+	},
+	"T5405_crossSessionDashboardApiFlagOn": {
+		"slug": "autothirteen",
+		"dbFlag1": "skip_load_business_callback_in_dashboard_api",
+		"dbFlag2": "log_cross_session_info_for_dashboard_api",
+		"apiKey": "Nb2AgSmgxsHB7cpSTCvS",
+		"apiKey2": "FTuxTvGKAK4u6UsiDzN4",
+		"business_id": "1095",
+		"business_id2": "1105"
+	},
+	"T5928_VerifyLockReleased": {
+		"slug": "autofive",
+		"dbFlag": "enable_redis_release_lock_feature_for_redemptions",
+		"client": "069227a1280d8a28187fe548d3f0712240a1011b1dcd0716dd941e67e4902e0b",
+		"secret": "46c7b6b6f0cb39896e7f3b1d4a5a5089ceca997f3e2378a2846caadc62902f0d",
+		"apiKey": "SEeFUuNMzAsSHBgPx8zR",
+		"locationkey": "c60887971bb4427820382d7bcdc34566",
+		"business_id": "1033",
+		"redeemable_id": "2827383",
+		"redeemable_ID": "2827424"
+	},
+	"T5927_VerifyLockReleased": {
+		"slug": "autofive",
+		"client": "069227a1280d8a28187fe548d3f0712240a1011b1dcd0716dd941e67e4902e0b",
+		"secret": "46c7b6b6f0cb39896e7f3b1d4a5a5089ceca997f3e2378a2846caadc62902f0d",
+		"apiKey": "SEeFUuNMzAsSHBgPx8zR",
+		"locationkey": "c60887971bb4427820382d7bcdc34566",
+		"dbFlag": "enable_redis_release_lock_feature_for_redemptions",
+		"business_id": "1033",
+		"redeemable_id": "2827383",
+		"redeemable_ID": "2827424",
+		"locationId": "400447"
+	},
+	"T5739_verifyAuthApiUpdateLoyaltyCheckin": {
+		"slug": "autofive",
+		"client": "069227a1280d8a28187fe548d3f0712240a1011b1dcd0716dd941e67e4902e0b",
+		"secret": "46c7b6b6f0cb39896e7f3b1d4a5a5089ceca997f3e2378a2846caadc62902f0d",
+		"locationkey": "c60887971bb4427820382d7bcdc34566",
+		"apiKey": "SEeFUuNMzAsSHBgPx8zR",
+		"business_id": "1033",
+		"amount": "100.0"
+	},
+    "T7194_verifyJTIAccessTokenForBasicAndAdvanceAuth": {
+      "slug": "automationeighteen"
+    },
+    "T6982_verifyBasicAuthApisReturnProperErrorWhenDisabled": {
+      "slug": "automationeighteen"
+    }
+}

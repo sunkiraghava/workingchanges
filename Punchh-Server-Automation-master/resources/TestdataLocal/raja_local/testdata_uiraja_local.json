@@ -1,0 +1,242 @@
+{
+    "verifyAlternateStoreNumber": {
+		"whiteLabel": "whitelabel/",
+		"slug": "fateats",
+		"altstorenum":"UK8907",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+  },
+	"verifyAdditionalURLsforLocation": {
+		"whiteLabel": "whitelabel/",
+		"slug": "fateats",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+  },
+  "VerifyNewConfigforGCinMobileConfig":{
+        "whiteLabel": "whitelabel/",
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+  },
+  "VerifyIframeACDeactivationConfigurations":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+    },
+    "T2732_verifyAppStringsJsonFields": {
+		"slug": "moes",
+		"loyaltyAppStringsJson": "{\" ENGLISH \":\"ashish @12@45\",\"key2\":\"sawant@45   ENGLISH \"}",
+		"orderingAppStringsJson": "{\" ENGLISH \":\"ashis@67h\",\"test\":\"xyz\"}",
+		"giftCardAppStringsJson": "{\"ADDITIONAL GIFT CARD APP CONFIGS\":\"@33 APP string\"}",
+		"appStringsHintTextList": "App-level text required by loyalty screens. The text should be in proper JSON format.,App-level text required by ordering screens. The text should be in proper JSON format.,App-level text required by gift card screens. The text should be in proper JSON format.",
+		"redColorHexCode": "#ff0000"
+	},
+	"T4233_verifyRewardScreenAndScanningStyle": {
+		"slug": "moes",
+		"businessId": "9",
+		"redColorHexCode": "#ff0000",
+		"distanceUnitsDisplayDropdownList": [
+			"Kilometers",
+			"Miles"
+		],
+		"rateReviewScreenDropdownList": [
+			"Experience rating only",
+			"Full Rate & Review screen",
+			"No Rate & Review screen",
+			"Text field only"
+		]
+	},
+	"T4290_verifyLoyaltyOrderingGiftCardFields": {
+		"slug": "moes",
+		"addlLoyaltyAppConfigsJson": "\"ADDITIONAL Loyalty APP CONFIGS\":\"@ABCde334789\"",
+		"greenColorHexCode": "#155724",
+		"redColorHexCode": "#ff0000",
+		"invalidCommaSeparatedValues": "a,2,f,t,y"
+	},
+	"T4407_verifyShowFeesAsList": {
+		"slug": "moes",
+		"businessId": "9"
+	},
+	"T3189_ValidateSubsectionTitleOrderingCustomText": {
+		"slug": "moes"
+	},
+	"T3957_DispatchOptionNotAvailable": {
+		"slug": "moes",
+		"hintText": "Operation types selected here will not be visible in the app",
+		"expectedMessage": "Mobile configuration updated"
+	},
+	"T3244_validateMsgNavigationMobileConfigurationPage": {
+		"slug": "moes"
+	},
+	"T3246_ValidateSpecificTabWhenTapOnUpdateButton": {
+		"slug": "moes"
+	},
+	"T6241_T6256_ValidateNewlyAddedFieldSmsPrivacyPolicyAndSmsTermsAndConditionAndSmsPrivacyAndSHowMapToolBarAndShowgetDirectionFlags": {
+		"slug": "moes",
+		"smsPrivacyPolicyLabel": "SMS Privacy Policy URL",
+		"smsTermsAndConditionLabel": "SMS Terms and Conditions URL",
+		"privacyPolicyLabel": "Privacy Policy URL",
+		"smsPrivacyPolicyInvalidURL": "https://dashboard-development. punchh.com:3000/",
+		"smsTermsAndConditionInValidURl": "https://dashboard-development. punchh.com:3000/",
+		"privacyPolicyInvalidUrl": "https://dashboard-development. punchh.com:3000/",
+		"validUrlsmsPrivacyPolicy": "https://dashboard-development.punchh.com:3000/",
+		"validUrlSmstermsCondition": "https://dashboard-development.punchh.com:3000/",
+		"validUrlPrivacyPolicy": "https://dashboard-development.punchh.com:3000/"
+	},
+  "VerifyIframeACDeletionConfigurations":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+    },
+    "T5983_ValidateMobileConfigsforThemesTab": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+    },
+    "ValidateAllowGiftCardPaymentsinSSF_Flag":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+    },
+	"ValidateShowRedeemOnlineButtonInConsolidatedScanningFlag": {
+		"slug": "moes"
+	},
+    "ValidateCategory_Product_ModifierImagesFlags":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+    },
+    "ValidateDisableGuestOrderingFlag":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+	},
+    "ValidateQRCodeOnCheckInPageIniFrame":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+	},
+	"ValidateQRCodeOnCheckInPageIniFrameBasedOnLocationSelection":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"locationName":"Daphne",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+	},
+	"ValidateBarCodeOnCheckInPageIniFrameBasedOnLocationSelection":{
+        "whiteLabel": "/whitelabel/",
+		"slug": "moes",
+		"locationName":"test 2",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+	},	
+    "T5481_verifyAllBusinessPage": {
+		"slug": "demo app",
+		"business_id" : "1",
+		"pushNotification": "Automation Push Notification",
+		"emailSubject": "Automation Email Subject",
+		"emailTemplate": "Automation Email Template",
+		"segmentType": "All Signed Up",
+		"locationKey": "52185fb70b14e9a3ddb46182458dbaa2",
+		"expectedLinkTexts": [
+			"Status",
+			"Developers",
+			"Contact",
+			"About",
+			"Blog",
+			"Security",
+			"Privacy"
+		]
+	},
+	"VerifyPunchhMenuSTSTest": {
+		"whiteLabel": "whitelabel/",
+		"slug": "moes",
+		"appkey":"RajaLocalTest",
+		"client": "x4KYvfcy08-q3sBPrROtNkPNrbHQC6Ww5eP7R3lnse0",
+		"secret": "0phv1oqPICYeay1kohQkk3Lu603q8dcLDUfd5MoWlxA"
+	},
+	"T61213_VerifyPhonePlaceholderText": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "moes"
+		},
+	"BOP_T365_VerifyEmailVerificationConfirmationMSG":{
+	    "whiteLabel": "/whitelabel/",
+		"slug": "fateats",
+		"confirmtxt":"Thanks for confirming your email.",
+		"alreadyconfirmtxt":"You email was already confirmed."
+		},
+	"T3458_newAddedfieldsUnderMenuTab": {
+		"slug": "moes",
+		"client": "0cf1435c13b2f12784b4df7a47bc227a6262f18be5f8bfe7d41451d5a184acc3",
+		"secret": "44cfb0a50c03528cd836c53bdfa590c6b5a05e0d8f5c67e36eec681f1e9f2459"
+	},
+	"T6519_verifyMetaApiThemesChanges": {
+		"slug": "Nav",
+		"primaryColorCode": "DC143C",
+		"primarycontrastColorCode": "4169E1",
+		"secondaryColorCode": "50C878",
+		"accentColorCode": "FF4500",
+		"backgroundColorCode": "800080",
+		"baseColorCode": "40E0D0",
+		"borderColorCode": "FF7F50",
+		"defaultColorCode": "8B4513",
+		"blackColorCode": "000000",
+		"iconUrlPart": "https://res.cloudinary.com/punchh/image/upload/g_center,q_100/v1/assets.punchh.io/mobile_configurations/nav/themes-editor/",
+		"svgImagePath": "/resources/Images/svg_5kb.svg"
+	},
+	"T5308_verifyMobileConfigThemesColors": {
+		"slug": "Nav",
+		"redColorHexCode": "#e8144c",
+		"primaryColorCode": "DC143C",
+		"primarycontrastColorCode": "4169E1",
+		"secondaryColorCode": "50C878",
+		"accentColorCode": "FF4500",
+		"backgroundColorCode": "800080",
+		"baseColorCode": "40E0D0",
+		"borderColorCode": "FF7F50",
+		"defaultColorCode": "8B4513",
+		"blackColorCode": "000000"
+	},
+	"T6518_verifyMobileConfigThemesIcons": {
+		"slug": "Nav",
+		"lightThemeColor": "rgba(255, 255, 255, 1)",
+		"darkThemeColor": "rgba(31, 34, 35, 1)",
+		"svgImagePath": "/resources/Images/svg_5kb.svg",
+		"pngImagePath": "/resources/images.png",
+		"svgImage1MbPath": "/resources/Images/svg_1mb.svg",
+		"iconUrlPart": "https://res.cloudinary.com/punchh/image/upload/g_center,q_100/v1/assets.punchh.io/mobile_configurations/nav/themes-editor/"
+	},
+	"T6517_verifyMobileConfigThemesLayout": {
+		"slug": "Nav"
+	},
+	"T6712_verifyMobileConfigThemesLayoutIfFeatureFlagOff": {
+		"slug": "Nav"
+		},
+	
+       "T6854_verifyCurbsideOrderCreationFlow": {
+               "slug": "moes",
+               "cus_status1": "enroute",
+               "cus_status2": "arrived",
+               "cus_status3": "nearby",
+               "storeNumber": "66233"
+       },
+       "T6854_verifyPickupAndDeliveryOrderCreationFlow": {
+               "slug": "moes",
+               "cus_status1": "enroute",
+               "cus_status2": "arrived",
+               "cus_status3": "nearby",
+               "storeNumber": "66233"
+       },
+ 		"T7174_ValidateExcludedOrderTypes":{
+ 		  "slug": "moes"
+ 		}
+ 		
+		
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite" parallel="classes" thread-count="14" preserve-order="true">
+
+	<parameter name="BROWSER" value="headlesschrome" />
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="localhost" /> <!-- 192.168.43.152 -->
+	<parameter name="suite" value="smoke" />
+	<parameter name="environment" value="amit_local" />
+	
+
+	<listeners>
+		<!-- <listener class-name="com.punchh.server.utilities.Transformer" /> -->
+		<listener
+			class-name="com.punchh.server.utilities.TestListeners" />
+	</listeners>
+
+	<test name="Smoke Test" >
+		<classes>
+			<class name="Support.ConfigurationClass" />
+			<class name="com.punchh.server.smokeTest.MassCampaignTest" />
+			<class name="com.punchh.server.smokeTest.SignupCampaignTest" />
+			<class name="com.punchh.server.smokeTest.PostCheckinCampaignTest" />
+			<class name="com.punchh.server.smokeTest.RedeemableRedemptionTest" />
+			<class name="com.punchh.server.smokeTest.RewardAndAmountRedemptionTest" />
+			<class name="com.punchh.server.smokeTest.PosChekinTest" />
+			<class name="com.punchh.server.smokeTest.Api2UserSignUpAndLoginTest" />
+			<class name="com.punchh.server.smokeTest.Api1UserSignUpAndLoginTest" />
+			<class name="com.punchh.server.smokeTest.OnlineOrderChekinTest" />
+			<class name="com.punchh.server.smokeTest.SsoSignupTest" />
+			<class name="com.punchh.server.smokeTest.PosUserSignUpTest" />
+			<class name="com.punchh.server.smokeTest.IframeSignUpAndLoginTest" />
+			<class name="com.punchh.server.smokeTest.IframeBarcodeCheckinTest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> 

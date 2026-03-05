@@ -1,0 +1,116 @@
+{
+	"SQ_T6609_DefaultValueOfExcludeMembershipPointsInSupportApi": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"adminAuthorization": "Vh78Uzm6JJeCwzjuNpwm",
+		"points": "50"
+	},
+	"SQ_T6610_ExcludeMembershipPointsValueAsFalseInSupportApi": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"adminAuthorization": "Vh78Uzm6JJeCwzjuNpwm",
+		"points": "50"
+	},
+	"SQ_T6611_ExcludeMembershipPointsValueAsTrueInSupportApi": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"adminAuthorization": "Vh78Uzm6JJeCwzjuNpwm",
+		"points": "50"
+	},
+	"SQ_T6612_SupportRewardGiftingApiWithExcludeFlag": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"adminAuthorization": "Vh78Uzm6JJeCwzjuNpwm",
+		"redeemable_id": "63542",
+		"end_date": "2025-07-31"	
+	},
+	"SQ_T6855_NewSupportCurrencyGiftingApiValidation": {
+		"slug": "frankpepespizzerianapoletana",
+		"client": "OlNzAo6c97pbKz5ywoNzZjQdoTjfSLGhyPiKUycLVeQ",
+		"secret": "B6700r_rp_405v0sKcxwPjpuZoaRuIvIzCZ-6XLeL7k",
+		"adminAuthorization": "xaKLGd_sqSeFK7dJ17f9",
+		"rewardAmount": "2"
+	},
+	"SQ_T6856_NewSupportVisitGiftingApiValidation": {
+		"slug": "schlotzskys",
+		"client": "b9b7f1187c78e148e720bfdff55cd4863150bb2f213027da4f11a4394717380c",
+		"secret": "f75e5cd39816f81a4729bd81456c3e898f453a6d270a32fa9cc6a44571494977",
+		"adminAuthorization": "D7833zmyU6Vyi483sAzw",
+		"visits": "10"
+	},
+	"SQ_T6857_NewSupportCurrencyGiftingIncorrectAmountValidation": {
+		"slug": "frankpepespizzerianapoletana",
+		"client": "OlNzAo6c97pbKz5ywoNzZjQdoTjfSLGhyPiKUycLVeQ",
+		"secret": "B6700r_rp_405v0sKcxwPjpuZoaRuIvIzCZ-6XLeL7k",
+		"adminAuthorization": "xaKLGd_sqSeFK7dJ17f9",
+		"rewardAmount1": "",
+		"rewardAmount2": "abcd"
+	},
+	"SQ_T7102_FetchSocialCauseCampaignDetailsWithAllParametrization": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_api_parameterization",
+		"adminAuthorization": "Qop5bgkyw7tQx69u8spu",
+		"amount": "5"
+	},
+	"SQ_T7103_FetchSocialCauseCampaignDetailsWithSelectedParametrization": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_api_parameterization",
+		"adminAuthorization": "Qop5bgkyw7tQx69u8spu",
+		"amount": "5"
+	},
+	"SQ_T7104_FetchSocialCauseCampaignDetailsWithInvalidParametrization": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_api_parameterization",
+		"adminAuthorization": "Qop5bgkyw7tQx69u8spu",
+		"amount": "5"
+	},
+	"SQ_7215_verifyPOSUsersSearchWithSST": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_api_parameterization",
+		"paymentType": "CreditCard",
+		"transaction_token": "transaction_token",
+		"location": "1f9db0ff496c444b0589951e3b465dd3"
+	},
+	"SQ_7216_verifyPOSUsersSearchWithCstore": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_cstore_account_balance",
+		"location": "1f9db0ff496c444b0589951e3b465dd3"
+	},
+	"SQ_7217_verifyPOSUsersSearchWithCompleteAccount": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_cstore_account_balance",
+		"location": "1f9db0ff496c444b0589951e3b465dd3"
+	},
+	"SQ_7218_verifyPOSUsersSearchWithInvalidDetails": {
+		"slug": "caseys",
+		"client": "a55e74e1631650ce19c62915193a8be9609e5c13481191bb14882c6bf7c26d1d",
+		"secret": "4adf67aed851d8c42e67966729c45fac669d60b02139d86bce7f674574bf1754",
+		"business_id": "1",
+		"dbFlag": "enable_api_parameterization",
+		"location": "1f9db0ff496c444b0589951e3b465dd3",
+		"invalidLocation": "1f9db0ff496c444b0589951e",
+		"invalidSingleScanToken": "A99CD638A4D733C5CD6D"
+	}
+}

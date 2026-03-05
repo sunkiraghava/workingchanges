@@ -1,0 +1,37 @@
+{
+	
+  "SQ_T6942_GenerateShortCodeWithoutLocation": {
+  		"slug": "moes",
+  		"client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e6",
+  		"secret": "e62811e1d3fbab923546d493f1fc3c30f054ee78652a317b7c81d17b39592d89",
+  		"blankLocID": "",
+  		"driveThruCodeLengthStrategy": "4-digit Alphanumeric code"
+		},
+		
+		"SQ_T7275_verifyDriveThruSSF_EndToEnd": {
+	      "slug": "moes",
+		  "singlescandropdownlist": [
+					  			"Long token",
+					  			"None",
+					  			"Short token",
+					  			"Single Scan Code"
+					  		]
+		},
+		
+		"SQ_T7483_verifyCategoryCreationWithValidData": {
+		  "slug": "moes",
+          "categoryName": "Beverages",
+          "categoryDescription": "Various kinds of drinks"
+         
+        },
+		
+		"SQ_T7487_verifyMandatoryFieldsError": {
+			"slug": "moes",
+			"redColorHexCode": "#ff0000"
+		},
+		
+		"SQ_T7484_verifycategorylimitError": {
+            "slug": "pointcurrency"
+        }
+		
+}

@@ -1,0 +1,34 @@
+{
+	"T5189_T5190_T5194_VerifyUserSignUpWithCommunicationChannelAsEmail": {
+		"slug": "fateats",
+		"identityBusinessID": "1"
+	},
+
+
+"SQ_T5859_AdvancedAuth_Punchh_SignIn_API2_Test":{
+	"slug": "fatpizzanew"
+},
+"SQ_T5855_AdvancedAuth_Punchh_SignIn_API1_Test":{
+	"slug": "fatpizzanew"
+},
+"SQ_T5858_AdvancedAuth_Punchh_SignIn_API_Auth_Test":{
+	"slug": "fatpizzanew"
+},
+"SQ_T5924_AdvanceAuthUserUpdateSync_Auth": {
+	"slug": "fatpizzanew"
+},
+"SQ_T5916_AdvanceAuthUserUpdateSync_API1": {
+	"slug": "fatpizzanew"
+},
+"SQ_T5923_AdvanceAuthUserUpdateSync_API2": {
+	"slug": "fatpizzanew"
+},
+"SQ_T6027_Verify_AdvanceAuthConfig_MetaAPI": {
+	"slug": "fatpizzanew",
+	"clientAdvanceAuthOff": "cmt4tfeVVYgRGSKCEtKyFsHjwUjAzu7P9EYzAeCNgR8",
+	"secretAdvanceAuthOff": "FCYoW4IGGCLf41wkJEtjhUtasbEr8Mu_yhrdFLbGx3A"
+}
+
+
+
+}

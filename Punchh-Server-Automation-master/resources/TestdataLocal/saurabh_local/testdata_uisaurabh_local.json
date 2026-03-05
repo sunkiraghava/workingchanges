@@ -1,0 +1,78 @@
+{
+	"T4408_sync_user_deletion_via_dashboard": {
+		"slug": "fateats",
+		"deleteOption": "Delete-TestData"
+	},
+	"T4409_sync_user_deletion_via_API": {
+		"slug": "fateats",
+		"deleteOption": "Delete-General"
+	},
+	"T5718_verifyAndroidPassForUser": {
+		"slug": "saurabh_automation"
+	},
+	"T5717_verifyUserIdentifierForAndroidPass": {
+		"slug": "saurabh_automation",
+		"userIdentifier_1": "Phone",
+		"userIdentifier_2": "Email",
+		"userIdentifier_3": "User Code",
+		"passType": "Google Loyalty Pass",
+		"buttonType": "Edit Loyalty Pass",
+		"tab": "Settings",
+		"newPhone": "7897890078"
+	},
+	"T5720_verifyAndroidPassUpdate": {
+		"slug": "saurabh_automation",
+		"newFN": "test_newFN",
+		"newLN": "test_newLN",
+		"points": "27",
+		"businessAdminKey": "wPK95o7KGWqv_zLMxaNG",
+		"nameLabel": "Name:",
+		"emailLabel": "Email:",
+		"pointsLabel": "current_account_balance:"
+	},
+	"SQ_T5871_advanceAuthOauthAppCreationAndDeletionSyncTest": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T5872_advanceAuthOauthAppUpdationSyncTest": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T6020_AdvancedAuthE2EPhoneOnlyUser": {
+		"slug": "fatpizzanew",
+		"toPhone": "8109175140",
+		"toPhoneExtension": "+91"
+	},
+	"SQ_T6015_AdvancedAuthE2EEmailOnlyUser": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T6019_AdvancedAuthE2EEmailAndPhoneUser": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T6047_VerifyAdvancedAuthUserSyncForAnonymise": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T6054_VerifyAdvancedAuthUserSyncForDeactivateDelete": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T5925_AdvanceAuthUserUpdateSync_Dashboard": {
+		"slug": "fatpizzanew"
+	},"SQ_T6026_validate_blocking_of_punchh_generated_emails": {
+		"slug": "fatpizzanew"
+	},
+	"SQ_T6211_ValidateUserAnonymiseSync_AdvanceAuthOff": {
+		"slug": "saurabh_automation"
+	},
+	"SQ_T6212_ValidateUserDeactivateAndDeleteSync_AdvanceAuthOff": {
+		"slug": "saurabh_automation"
+	},
+	"SQ_T6214_AdvanceAuthiframeSSOTest": {
+		"slug": "fatpizzanew",
+		"redirect_uri": "https://dontChange_usedInAutomation.com"
+	},
+	"SQ_T6209_T6210_ValidateUserCreateAndUpdateSync_AdvanceAuthOff": {
+			"slug": "saurabh_automation"
+    },
+  "T2769_VerifyGoogleSignupIn": {
+    "slug": "fatpizzanew",
+    "google_client": "386071246724-qdk3l8apqj4k6s883u6iisnmh507d58e.apps.googleusercontent.com"
+  }
+}

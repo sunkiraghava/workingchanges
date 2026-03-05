@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite name="PickupFunctional" parallel="classes" thread-count="10" preserve-order="true">
+	
+	
+	<parameter name="BROWSER" value="chrome" />
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="localhost" /> <!-- 192.168.43.152 -->
+	<parameter name="suite" value="localRegression" />
+	<parameter name="environment" value="raja_local" />
+
+	<listeners>
+		<listener
+			class-name="com.punchh.server.utilities.TestListeners" />
+	</listeners>
+ 
+
+	<test name="CXLocalSuite">
+		<classes>
+			<class name="Support.ConfigurationClass" />
+            <class name="com.punchh.server.CXTest.MobileTabStructureTest" />
+            <class name="com.punchh.server.CXTest.PunchhMenuSTSTest"/>
+			<class name="com.punchh.server.CXTest.MobileTabStructureCXTest"/> 
+			<class name="com.punchh.server.CXTest.MobileConfigurationTest"/>
+			<class name="com.punchh.server.CXTest.MobileConfigurationCXTest"/>
+			<class name="com.punchh.server.CXTest.MobileConfigurationAndWhitelabelNewAddedFieldsTest"/>
+			<class name="com.punchh.server.CXTest.MobileConfigurationCXTest"/>
+			<class name="com.punchh.server.CXTest.MobileAndWhitelabelCXTest"/>
+			<class name="com.punchh.server.CXTest.IframeValidationTests"/>
+			<class name="com.punchh.server.CXTest.IframeACDeactivationDeletionAndQRBarcodeTest"/>
+			<class name="com.punchh.server.CXTest.EmailTemplateTest"/>
+			<class name="com.punchh.server.CXTest.E2ECurbsideOrderTest" />
+			<class name="com.punchh.server.Test.ContentLibraryTest"/>
+			
+		</classes>
+	</test>
+</suite> <!-- Suite -->

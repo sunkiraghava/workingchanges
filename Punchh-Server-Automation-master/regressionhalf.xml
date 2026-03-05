@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" preserve-order="true" parallel="classes" thread-count="5">
+
+	<parameter name="BROWSER" value="chrome" />
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="" /> <!-- 192.168.43.152 /localhost-->
+	<parameter name="suite" value="regressionhalf" />
+	<parameter name="environment" value="" />
+	<parameter name="zephyrExecution" value="false" />
+
+	<listeners>
+		<listener class-name="com.punchh.server.utilities.TestListeners" />		
+	</listeners>
+	
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+			<class name="Support.ConfigurationClass" />
+			<!-- PART B -->
+			<class name="com.punchh.server.NCHPTest.NewCampPageTest"/>
+			<class name="com.punchh.server.LP1Test.MigrationStrategyExcludeCategoryTest"/>
+			<class name="com.punchh.server.Test.TurnOffLoyaltyTransactionsTest"/>
+			<class name="com.punchh.server.Test.ExportPOSscoreboardTest"/>
+			<class name="com.punchh.server.LP1Test.BulkAccountRefresherTest"/>
+			<class name="com.punchh.server.Test.AddRemovedUserToCustomSegmentTest"/>
+			<class name="com.punchh.server.NCHPTest.CampaignFilterTest"/>
+			<class name="com.punchh.server.NCHPTest.NewCampPageNcpTest"/>
+			<class name="com.punchh.server.Test.VerifyFlagTurnOffCheckinsTurnOffRedemptionsCases"/>
+			<class name="com.punchh.server.OMMTest.OMM357_singleScanCode" />
+			<class name="com.punchh.server.Test.BusinessHealthFlagOnOffTest"/>
+			<class name="com.punchh.server.loyalty2.ActivateDeactivateUsersFunctionalityTest"/>
+			<class name="com.punchh.server.loyalty2.DeleteDeactivateUserTest"/>
+			<class name="com.punchh.server.loyalty2.UserEmailSignUpFunctionalityTest"/>
+			<class name="com.punchh.server.loyalty2.CockpitTabsValidationsTest"/>
+			<class name="com.punchh.server.loyalty2.CockpitsTabFunctionalityValidationsTest"/>
+			<class name="com.punchh.server.loyalty2.Location_TestCases"/>
+			<class name="com.punchh.server.OMMTest.OMM_AuthDiscontActiveAPI_AcceptLanguage_SQT5143"/>	
+			<class name="com.punchh.server.NCHPTest.CampaignAsTemplateTest"/>
+			<class name="com.punchh.server.LP1Test.GuestProfileTest"/>
+			<class name="com.punchh.server.campaignsTest.ProfileUpdateCampaignTest"/>
+			<class name="com.punchh.server.Test.DeactivateRecurringMassCampaignTest"/>
+			<class name="com.punchh.server.CXTest.MobileTabStructureCXTest"/>
+			<class name="com.punchh.server.CXTest.MobileConfigurationThemesTest"/>
+			<class name="com.punchh.server.Test.SfmcSegmentExportTest"/>
+			<class name="com.punchh.server.OMMTest.StackingReusabilityDiscountCalculationTest"/>
+			<class name="com.punchh.server.campaignsTest.PromoOfferCampaignTest" />
+			<class name="com.punchh.server.CXTest.IframeACDeactivationDeletionAndQRBarcodeTest"/>
+			<class name="com.punchh.server.campaignsTest.CreateRecallCampaignTest"/> 
+			<class name="com.punchh.server.OMMTest.OfferIngestionApiTest"/>
+			<class name="com.punchh.server.OMMTest.OfferIngestion_QualificationCriteria_APITests"/>
+			<class name="com.punchh.server.OMMTest.OfferIngestion_RedeemableInLineQC_APITests"/>
+			<class name="com.punchh.server.Test.RedeemableDistributionApiTest"/>
+			<class name="com.punchh.server.OMMTest.OfferIngestion_RedeemableInLineQC_APITests2"/>
+			<class name="com.punchh.server.OMMTest.LineItemSelectorAPITests"/>
+			<class name="com.punchh.server.Test.RolesAndPermissionsTest"/>
+			<class name="com.punchh.server.OMMTest.RedeemableImageUpload"/>
+			<class name="com.punchh.server.OMMTest.OfferIngestion_WithInvalidTimeFormatTest"/>
+			<class name="com.punchh.server.OMMTest.OffersPosRedemption"/>
+			<class name="com.punchh.server.Test.BrokenUrlTest" />
+			<class name="com.punchh.server.campaignsTest.AnniversaryCampaignWithRedeemableTest"/>
+			<class name="com.punchh.server.OfferIngestionTest.OfferIngestionQualificationCriteriaPartOneTests"/>
+			<class name="com.punchh.server.OMMTest.ValidationsForProcessingFunctions"/>
+			<class name="com.punchh.server.OMMTest.RedemptionInteroperabilityTest" />
+			<class name="com.punchh.server.OMMTest.DiscountingLimit" />
+			<class name="com.punchh.server.OMMTest.ChangedRewardLockingFunctionalityDisableTest"/> 
+			<class name="com.punchh.server.campaignsTest.SignupCampaignWithSegment" />
+			<class name="com.punchh.server.OMMTest.EPSBugFixesTest" />
+			<class name="com.punchh.server.campaignsTest.SplitMassOfferCampaignTest"/>
+			<class name="com.punchh.server.OMMTest.RewardLockingFeatureUpdate"/>
+			<class name="com.punchh.server.campaignsTest.MassOfferWithSplitTestingPartOneTest"/>
+			<class name="com.punchh.server.campaignsTest.MassOfferWithSplitTestingPartTwoTest"/>
+			<class name="com.punchh.server.campaignsTest.MassOfferWithSplitTestingPartThreeTest"/>
+			<class name="com.punchh.server.campaignsTest.MassOfferWithSplituserSubmitterUserTest"/>
+			<class name="com.punchh.server.LP1Test.AuthRedemptionUUIDTest"/>
+			<class name="com.punchh.server.OMMTest.PerishedErrorMessageTest"/>
+			<class name="com.punchh.server.LP1Test.MembershipValidationTest1" />
+			<class name="com.punchh.server.LP1Test.MembershipValidationTest2" />
+			<class name="com.punchh.server.LP1Test.MembershipValidationTest3" />
+			<class name="com.punchh.server.CXTest.GoogleSigninAPITest"/>
+			<class name="com.punchh.server.OMMTest.StackingAndReusabilityTest" />
+			<class name="com.punchh.server.OMMTest.OMMPromotionalAccrualsAPITest"/>
+			<class name="com.punchh.server.loyalty2.LocationGroupTest"/>
+			<class name="com.punchh.server.OMMTest.stackingAndReusabilityPartTwoTest" />
+			<class name="com.punchh.server.OMMTest.OMMPromoRedemptionValidateAPITest"/>
+			<class name="com.punchh.server.OMMTest.TD4050LocationUpdateWithRedemptionFlagRequestTest"/>
+            <class name="com.punchh.server.Integration1.InboundWebhookKafkaNonBulkingConsumerTest"/>
+            <class name="com.punchh.server.campaignsTest.UpdateRewardExpiryCampaignTest" />
+            <class name="com.punchh.server.LP1Test.DashboardAdminAccessTest" />
+            <class name="com.punchh.server.CXTest.EmailTemplateAttachmentTest" />
+            <class name="com.punchh.server.campaignsTest.ReferralCampaignDisableFlagTest"/>
+            <class name="com.punchh.server.OMMTest.POSRedemptionWithQCTest"/>
+            <class name="com.punchh.server.OMMTest.ItemQualifierExclusionRuleWithFlagFalseTest"/>
+            <class name="com.punchh.server.OMMTest.OMM1335OloPromoSpecTest"/>
+            <class name="com.punchh.server.OMMTest.ItemQualifierFilterOperatorWithFlagFalseTest"/>
+            <class name="com.punchh.server.OMMTest.VerifyQualificationCriteriaDetailsTest"/>
+            <class name="com.punchh.server.OMMTest.AutoSelectApiDItemHandlingTest"/>
+            <class name="com.punchh.server.OMMTest.OfferIngestionQCLogicalOperatorKeysTest"/>
+            <class name="com.punchh.server.OMMTest.OfferIngestionRedeemableLogicalOperatorKeysTest"/>
+            <class name="com.punchh.server.OMMTest.ValidationInBatchRedemptionProcessOMM_T75" />
+            <class name="com.punchh.server.LP1Test.RollingCheckinSumExpiryTest"/>
+            <class name="com.punchh.server.OMMTest.OMM1536LineItemFilterOrSupportFlagTrueTest"/>
+			<class name="com.punchh.server.Integration1.YextLocationTest"/>
+            <class name="com.punchh.server.apiTest.ParGamesAPI"/>      
+            <class name="com.punchh.server.Test.GoogleWalletNFCTest"/>
+            <class name="com.punchh.server.OMMTest.OMM1158DecoupleHitTargetMenuItemPriceRuleEngineFlagTrueTest"/>
+            <class name="com.punchh.server.OfferModularization.OfferModularizationsApiTest"/>
+            <class name="com.punchh.server.OMMTest.camRedemptionTest"/>
+            <class name="com.punchh.server.campaignsTest.CompressionCampaigTest" />
+			<!-- Adding beta cases -->
+			<class name="com.punchh.server.cambetaTest.CampaignBetaApprovalTest" />
+			<class name="com.punchh.server.cambetaTest.CampaignBetaRejectionTest" />
+			<class name="com.punchh.server.cambetaTest.CampaignBetaEditTest" />
+			<class name="com.punchh.server.cambetaTest.CampaignBetaNotificationTest" />
+			<class name="com.punchh.server.cambetaTest.CampaignBetaOptionsTest" />
+			<class name="com.punchh.server.cambetaTest.CampaignBetaDuplicateTest" />
+			<class name="com.punchh.server.cambetaTest.PostCheckinCampaignBetaTest" />
+			<class name="com.punchh.server.cambetaTest.MassNotificationSTOCampaignsTest" /> 
+			<class name="com.punchh.server.cambetaTest.MassOfferSTOCampaignsTest" />
+			<class name="com.punchh.server.OMMTest.ValidateBatchRedemption_AuthAPI_OMM_297_TC129_T130" />
+            <class name="com.punchh.server.OMMTest.ValidateBatchRedemption_AuthAPI_OMM_297" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

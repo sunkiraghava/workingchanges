@@ -1,0 +1,65 @@
+{
+	"LPET2827_ForceRedemptionFlagEnabled": {
+		"slug": "ptc",
+		"business_id": "28806",
+		"comment": "Force redemption test",
+		"adminAuthorization": "mVTmByrQG9ifWUqXeZKC",
+		"amount": "200",
+		"points": "10",
+		"dbFlag": "generate_uuid_for_force_redemption",
+		"redeemable_id": "89635"
+	},
+	"LPET2829_ForceRedemptionFlagDisabled": {
+		"slug": "ptc",
+		"business_id": "28806",
+		"comment": "Force redemption test",
+		"adminAuthorization": "mVTmByrQG9ifWUqXeZKC",
+		"amount": "200",
+		"points": "10",
+		"dbFlag": "generate_uuid_for_force_redemption",
+		"redeemable_id": "89635"
+	},
+	"TransferFlagOn": {
+		"slug": "ptc",
+		"adminAuthorization": "mVTmByrQG9ifWUqXeZKC",
+		"redeemable_id": "89635",
+		"amount": "20.00",
+		"points": "10",
+		"rewardName": "Base Redeemable"
+	},
+	"transferFlagOff": {
+		"slug": "ptc",
+		"business_id": "1024",
+		"adminAuthorization": "mVTmByrQG9ifWUqXeZKC",
+		"amount": "20.00",
+		"points": "20",
+		"redeemable_id": "89635",
+		"rewardName": "Base Redeemable"
+	},
+	"SQT6445_FlagEnabled": {
+		"slug": "autoone"
+	},
+	"T7538_VerifyNewCollectibleCreation": {
+		"slug": "winghouse",
+		"categoryName": "Holi 2026",
+		"shareMsg": "Check out my new collectible!",
+		"collectibleName": "DND_AutoCollectible",
+		"1mbImagePath": "/resources/Images/svg_1mb.svg",
+		"invalidFormatImagePath": "/resources/Images/image_100kb.jpg"
+	},
+	"T3691_createCollectibleWithInactiveStatus": {
+		"slug": "winghouse",
+		"categoryName": "Holi 2026",
+		"shareMsg": "Check out my new collectible!",
+		"collectibleName": "DND_InactiveCollectible",
+		"inactiveCategoryName": "DND_InactiveCategory",
+		"categoryName2": "Easter 2026",
+		"noCategory": "No Category"
+	},
+	"T3784_CollectibleWithSameNamePresentOnDiffBusiness": {
+		"slug": "nativegrill",
+		"categoryName1": "Holi 2026",
+		"shareMsg": "Check out my new collectible!",
+		"categoryName2": "Easter 2026"
+	}
+}

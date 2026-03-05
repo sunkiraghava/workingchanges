@@ -1,0 +1,55 @@
+{
+  "SQ_T7112_SQ_T7115_verifyFetchActiveGamesListSuccess": {
+    "slug": "moes",
+    "client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e6",
+    "secret": "e62811e1d3fbab923546d493f1fc3c30f054ee78652a317b7c81d17b39592d89",
+    "page": "1",
+    "per_page": "20",
+    "channel": "mobile"
+  },
+  "SQ_T7113_verifyFetchGamesListEmpty": {
+    "slug": "myrewards",
+    "client": "ba9839094f5a81fb7e0bcdb517e4fd3cc3ecc42ff6eccf5bc601bc9287a0a2e7",
+    "secret": "ac8dcdc0ba78f5294156c0d025cf8b7abeae7c260bc70087d538092e2cfbd4a8",
+    "page": "1",
+    "per_page": "20",
+    "channel": ""
+  },
+  
+  "SQ_T7120_verifyClientErrors": {
+    "slug": "moes",
+    "client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e6",
+    "invalid_client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e60",
+    "secret": "e62811e1d3fbab923546d493f1fc3c30f054ee78652a317b7c81d17b39592d89",
+    "page": "1",
+    "per_page": "20",
+    "channel": "mobile"
+  },
+  "SQ_T7114_verifyAuthTokenErrors": {
+    "slug": "moes",
+    "client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e6",
+    "secret": "e62811e1d3fbab923546d493f1fc3c30f054ee78652a317b7c81d17b39592d89",
+    "invalid_authToken": "lPGo4_vs1hw3Lqa3gGHCR4miMfKha0z83HgV_E0OrEs4",
+    "page": "1",
+    "per_page": "20",
+    "channel": "mobile"
+  },
+  "SQ_T7116_verifyPaginationDefaultsAndLimits": {
+    "slug": "moes",
+    "client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e6",
+    "secret": "e62811e1d3fbab923546d493f1fc3c30f054ee78652a317b7c81d17b39592d89",
+    "invalid_authToken": "lPGo4_vs1hw3Lqa3gGHCR4miMfKha0z83HgV_E0OrEs4",
+    "invalid_page": "-1",
+    "invalid_per_page": "200",
+    "channel": "mobile"
+  },
+  "SQ_T7117_SQ_T7118_verifyApi2EndpointStructure": {
+    "slug": "moes",
+    "client": "123745ca38cc25852dbfe108c5c6f1a6ab685f7a28d31c2d464b17b6d5c6a2e6",
+    "secret": "e62811e1d3fbab923546d493f1fc3c30f054ee78652a317b7c81d17b39592d89",
+    "invalid_authToken": "lPGo4_vs1hw3Lqa3gGHCR4miMfKha0z83HgV_E0OrEs4",
+    "page": "1",
+    "per_page": "20",
+    "channel": "mobile"
+  }
+}

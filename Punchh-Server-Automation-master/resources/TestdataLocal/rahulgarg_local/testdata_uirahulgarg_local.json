@@ -1,0 +1,441 @@
+{
+	"T4079_verifyQCAmountForLIQNetAmountExcludingMinPricedItem": {
+		"slug": "moes",
+		"baseItemClauses": "item_id,==,101/line_item_type,like,M",
+		"modifierItemClauses": "item_id,==,102/line_item_type,like,M",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"lisExternalID": "20d5af22-f834-4cfb-92ea-64341fa2fa47",
+		"subtotal_amount": "10.29",
+		"receipt_amount": "10.29"
+	},
+	"T4087_verifyQCAmountForLIQNetAmountExcludingMaxPricedItem": {
+		"slug": "moes",
+		"baseItemClauses": "item_id,==,101/line_item_type,like,M",
+		"modifierItemClauses": "item_id,==,102/line_item_type,like,M",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"lisExternalID": "20d5af22-f834-4cfb-92ea-64341fa2fa47",
+		"subtotal_amount": "10.29",
+		"receipt_amount": "10.29"
+	},
+	"T4266_T4267_T4268_mobileApiDoesNotPersistExternalUidOrLockedAt": {
+		"slug": "moes",
+		"item_id": "12003",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"T4344_T4346_T4345_mobile2ApiDoesNotPersistExternalUidOrLockedAt": {
+		"slug": "moes",
+		"item_id": "12003",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"T4198_T4259_T4261_posDoesNotPersistExternalUidOrLockedAt": {
+		"slug": "moes",
+		"item_id": "12003",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"T4262_T4265_T4263_authDoesNotPersistExternalUidOrLockedAt": {
+		"slug": "moes",
+		"item_id": "12003",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"T4264_T4260_autoSelectAPIDoesNotPersistExternalUidOrLockedAt": {
+		"slug": "moes",
+		"item_id": "12003",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"T4347_T4278_T4279_PosDiscountLookup_BatchRedemption_PersistUidAndLockTime": {
+		"slug": "moes",
+		"amount": "10",
+		"item_id": "12003",
+		"item_type": "M",
+		"item_name": "Sandwich",
+		"serial_number": "1",
+		"item_family": "1",
+		"item_qty": "1",
+		"item_group": "152",
+		"receipt_amount": "10",
+		"subtotal_amount": "10",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"storeNum": "9"
+	},
+	"T4214_T4237_T4233_T4257_errorOnPosAPIAfterBasketIsLocked": {
+		"slug": "moes",
+		"amount": "10",
+		"item_id": "12003",
+		"item_type": "M",
+		"item_name": "Sandwich",
+		"serial_number": "1",
+		"item_family": "1",
+		"item_qty": "1",
+		"item_group": "152",
+		"receipt_amount": "10",
+		"subtotal_amount": "10",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"storeNum": "9"
+	},
+	"T4218_T4236_T4240_T4242_errorOnAuthAPIAfterBasketIsLocked": {
+		"slug": "moes",
+		"amount": "10",
+		"item_id": "12003",
+		"item_type": "M",
+		"item_name": "Sandwich",
+		"serial_number": "1",
+		"item_family": "1",
+		"item_qty": "1",
+		"item_group": "152",
+		"receipt_amount": "10",
+		"subtotal_amount": "10",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"storeNum": "9"
+	},
+	"T4215_T4234_T4238_MobileAPIAfterBasketIsLocked": {
+		"slug": "moes",
+		"amount": "10",
+		"item_id": "12003",
+		"item_type": "M",
+		"item_name": "Sandwich",
+		"serial_number": "1",
+		"item_family": "1",
+		"item_qty": "1",
+		"item_group": "152",
+		"receipt_amount": "10",
+		"subtotal_amount": "10",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"storeNum": "9"
+	},
+	"T4216_T4239_T4235_API2MobileAfterBasketIsLocked": {
+		"slug": "moes",
+		"amount": "10",
+		"item_id": "12003",
+		"item_type": "M",
+		"item_name": "Sandwich",
+		"serial_number": "1",
+		"item_family": "1",
+		"item_qty": "1",
+		"item_group": "152",
+		"receipt_amount": "10",
+		"subtotal_amount": "10",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"storeNum": "9"
+	},
+	"validateSQT7354": {
+		"slug": "autoeleven",
+		"points": "150",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"validateSQT7355": {
+		"slug": "autoeleven",
+		"points": "150",
+		"moesClient": "505acdf313f9a108b930e36e56c66fb15806f531221b939eb0d2a0be61a62979",
+		"moesSecret": "527b79e780d00fa7ca900a098725a8599ecc1d8e058c6f423e56ed8a071a6c63",
+		"expectedError": "We couldn't find a loyalty account associated with that account ID."
+	},
+	"validateSQT7356": {
+		"slug": "autoeleven",
+		"points": "150"
+	},
+	"validateSQT7357": {
+		"slug": "autoeleven",
+		"points": "150",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"validateSQT7358": {
+		"slug": "automationseventeen",
+		"points": "150",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5"
+	},
+	"validateSQT7359": {
+		"slug": "automationseventeen",
+		"points": "150",
+		"lineItemSelector": "20d5af22-f834-4cfb-92ea-64341fa2fa47,max_price,5",
+		"PlanID": "5487",
+		"spPrice": "23"
+	},
+	"T4849_createLocationenables_updateLocationDoesNotSendParam": {
+		"slug": "automationseventeen"
+	},
+	"T4850_createLocationDisables_updateLocationDoesNotSendParam": {
+		"slug": "automationseventeen"
+	},
+	"T4847_createLocationDisables_updateLocationEnables": {
+		"slug": "automationseventeen"
+	},
+	"T4848_createLocationDisables_updateLocationDisables": {
+		"slug": "automationseventeen"
+	},
+	"T6795_qcSumOfAmounts100PercentOffer": {
+		"slug": "automationseventeen"
+	},
+	"T6796_qcRateRollbackOffer": {
+		"slug": "automationseventeen"
+	},
+	"T6797_rewardRedemptionWithHitTargetMenuItemPriceQC": {
+		"slug": "automationseventeen"
+	},
+	"T6798_rewardRedemptionWithBogoAnyQC": {
+		"slug": "automationseventeen"
+	},
+	"T6799_rewardRedemptionWithTargetBundleAdvancedQC": {
+		"slug": "automationseventeen"
+	},
+	"T6834_rewardRedemptionWithBogoFixQC": {
+		"slug": "automationseventeen"
+	},
+	"T6800_verifyRedeemableRedemptionWhenQCIsApplied": {
+		"slug": "automationseventeen"
+	},
+	"T6801_verifySubscriptionRedemptionWhenQCIsApplied": {
+		"slug": "automationseventeen",
+		"subcriptionPlanId": "5487"
+	},
+	"T6802_verifyDiscountAmountRedemptionWhenQCIsApplied": {
+		"slug": "autothree",
+		"amount": "50",
+		"redeemAmount": "1"
+	},
+	"T6803_couponRedemptionWhenQCIsApplied": {
+		"slug": "automationseventeen",
+		"OfferdrpValue": "Coupon",
+		"usageType": "POS",
+		"codeType": "PreGenerated",
+		"noOfGuests": "1",
+		"usagePerGuest": "1",
+		"giftType": "$ OFF",
+		"amount": "1",
+		"subAmount": "14"
+	},
+	"T6805_cardRedemptionWhenQCIsApplied": {
+		"slug": "visit"
+	},
+	"T7297_verifyReceiptQualifiesBasedOnNetAmountExcludingMinPricedItem": {
+		"slug": "automationseventeen"
+	},
+	"T7298_verifyReceiptQualifiesBasedOnNetAmountExcludingMaxPricedItem": {
+		"slug": "automationseventeen"
+	},
+	"T7299_verifyReceiptQualifiesExcludingMinItemMultiQty": {
+		"slug": "automationseventeen"
+	},
+	"T7300_verifyReceiptQualifiesExcludingMaxItemMultiQty": {
+		"slug": "automationseventeen"
+	},
+	"T7301_verifyReceiptQualificationExcludingMinItem_ForMItems_WithTaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7302_verifyReceiptQualificationExcludingMaxItem_ForMItems_WithTaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7303_receiptQualification_onlyModifiers_excludeMinMItems_taxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7304_receiptQualification_onlyModifiers_excludeMaxMItems_taxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7305_verifyReceiptExcludingMinItem_BaseModifiers": {
+		"slug": "automationseventeen"
+	},
+	"T7306_verifyReceiptExcludingMaxItem_BaseModifiers": {
+		"slug": "automationseventeen"
+	},
+	"T7307_verifyReceiptExcludingMinItem_BaseModifiers_WithTaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7308_verifyReceiptExcludingMaxItem_BaseModifiers_WithTaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7311_verifyRedemption2_0_ReceiptExcludingMinItem_OnlyBase_TaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7312_verifyRedemption2_0_ReceiptExcludingMaxItem_OnlyBase_TaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7313_verifyRedemption2_0_ReceiptExcludingMinItem_OnlyModifiers_TaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7314_verifyRedemption2_0_ReceiptExcludingMaxItem_OnlyModifiers_TaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7309_verifyRedemption2_0_ReceiptExcludingMinItem_BaseAndModifiers_TaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7310_verifyRedemption2_0_ReceiptExcludingMaxItem_BaseAndModifiers_TaxAndDelivery": {
+		"slug": "automationseventeen"
+	},
+	"T7315_T7316_T7317_T7318_T7319_validateItemQualifierLogicalStrategy": {
+		"slug": "automationseventeen"
+	},
+	"T7321_verifyOfferWithTwoItemQualifiers_UsingAnyOperator_OnlyBase": {
+		"slug": "automationseventeen"
+	},
+	"T7320_verifyOfferWithTwoItemQualifiers_UsingAllOperator_OnlyBase": {
+		"slug": "automationseventeen"
+	},
+	"T7323_verifyOfferWithTwoItemQualifiers_UsingAnyOperator_OnlyModifiers": {
+		"slug": "automationseventeen"
+	},
+	"T7322_verifyOfferWithTwoItemQualifiers_UsingAllOperator_OnlyModifiers": {
+		"slug": "automationseventeen"
+	},
+	"T7325_verifyOfferWithTwoItemQualifiers_UsingAnyOperator_BaseAndModifiers": {
+		"slug": "automationseventeen"
+	},
+	"T7324_verifyOfferWithTwoItemQualifiers_UsingAllOperator_BaseAndModifiers": {
+		"slug": "automationseventeen"
+	},
+	"OMM1534_OMM1538_testQcOperatorScenarios": {
+		"slug": "automationseventeen"
+	},
+	"OMM1534_OMM1538_testCreateGetUpdateRedeemableLogicalOperators": {
+		"slug": "automationseventeen"
+	},
+	"T7028_testSumOfAmounts_BaseAndModifiers_OrOperatorSingleCondition": {
+		"slug": "automationseventeen"
+	},
+	"T7029_testSumOfAmounts_BaseAndModifiers_OrOperatorTwoConditionWithMin": {
+		"slug": "automationseventeen"
+	},
+	"T7038_testSumOfAmounts_BaseAndModifiers_OrOperatorTwoConditionWithMax": {
+		"slug": "automationseventeen"
+	},
+	"T7030_testSumOfAmounts_BaseAndModifiers_OrOperatorWithMin_AllLIFConditionsMatch": {
+		"slug": "automationseventeen"
+	},
+	"T7039_testSumOfAmounts_BaseAndModifiers_OrOperatorWithMax_AllLIFConditionsMatch": {
+		"slug": "automationseventeen"
+	},
+	"T7027_testOrOperator_Offer1Offer2_50PctDiscount": {
+		"slug": "automationseventeen"
+	},
+	"T7032_testRateRollback_OrOperator_SingleConditionQualifies": {
+		"slug": "automationseventeen"
+	},
+	"T7033_testRateRollback_OrOperator_TwoConditionsQualify_Min": {
+		"slug": "automationseventeen"
+	},
+	"T7040_testRateRollback_OrOperator_TwoConditionsQualify_Max": {
+		"slug": "automationseventeen"
+	},
+	"T7044_testRateRollback_OrOperator_AllConditionsQualify_Min": {
+		"slug": "automationseventeen"
+	},
+	"T7041_testRateRollback_OrOperator_AllConditionsQualify_Max": {
+		"slug": "automationseventeen"
+	},
+	"T7031_testRateRollback_OrOperator_Offer1Offer2_50PctDiscount": {
+		"slug": "automationseventeen"
+	},
+	"T7035_testTargetMenuItemPrice_OrOperator_SingleConditionQualifies": {
+		"slug": "automationseventeen"
+	},
+	"T7036_testTargetMenuItemPrice_OrOperator_TwoConditionsQualify_Min": {
+		"slug": "automationseventeen"
+	},
+	"T7042_testTargetMenuItemPrice_OrOperator_TwoConditionsQualify_Max": {
+		"slug": "automationseventeen"
+	},
+	"T7037_testTargetMenuItemPrice_OrOperator_AllConditionsQualify_Min": {
+		"slug": "automationseventeen"
+	},
+	"T7043_testTargetMenuItemPrice_OrOperator_AllConditionsQualify_Max": {
+		"slug": "automationseventeen"
+	},
+	"T7034_testTargetMenuItemPrice_OrOperator_Offer1Offer2_50PctDiscount": {
+		"slug": "automationseventeen"
+	},
+	"T7054_StackingOn_ReuseOn_TwoOffers_LisBase_HitTargetAndSumOfAmounts": {
+		"slug": "automationseventeen"
+	},
+	"T7055_testStackingReusabilityOn_BaseLIS_Offer1Offer2_PercentCap": {
+		"slug": "automationseventeen"
+	},
+	"T7056_testStackingReusabilityOn_ModifiersLIS_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7057_testStackingReusabilityOn_ModifiersLIS_ExcludeNetQty2_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7058_testStackingReusabilityOn_BaseAndModifiersLIS_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7060_StackingOFF_ReuseOFF_TwoOffers_LisBase_HitTargetAndSumOfAmounts": {
+		"slug": "automationseventeen"
+	},
+	"T7061_testStackingReusabilityOff_BaseLIS_Offer1Offer2_PercentCap": {
+		"slug": "automationseventeen"
+	},
+	"T7062_testStackingReusabilityOff_ModifiersLIS_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7063_testStackingReusabilityOff_ModifiersLIS_ExcludeNetQty2_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7064_testStackingReusabilityOff_BaseAndModifiersLIS_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7065_testStackingReusabilityOff_BaseAndModifiersLIS_Exclude_Offer1": {
+		"slug": "automationseventeen"
+	},
+	"T7066_testStackingOnReusabilityOff_BaseOnlyLIS_Offer1Offer2_HitTargetAndSumAmounts": {
+		"slug": "automationseventeen"
+	},
+	"T7067_testStackingOnReusabilityOff_BaseOnlyLIS_Offer1Offer2_PercentAndCap": {
+		"slug": "automationseventeen"
+	},
+	"T7068_testStackingOnReusabilityOff_ModifiersOnlyLIS_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7069_testStackingOnReusabilityOff_ModifiersOnlyLIS_ExcludeNetQty2_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7070_testStackingOnReusabilityOff_BaseAndModifiersLIS_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7071_testStackingOnReusabilityOff_BaseAndModifiersLIS_Exclude_Offer1Offer2": {
+		"slug": "automationseventeen"
+	},
+	"T7072_testStackingOffReusabilityOn_BaseOnlyLIS_Offer1Offer2_HitTargetAndSumAmounts": {
+		"slug": "automationseventeen"
+	},
+	"T7073_testStackingOffReusabilityOn_BaseOnlyLIS_Offer1Offer2_PercentAndCap": {
+		"slug": "automationseventeen"
+	},
+	"T7220_testStackingReusabilityOff_SingleBundle_TwoTargetPriceAdvancedOffers": {
+		"slug": "automationseventeen"
+	},
+	"T7221_testStackingOn_DoubleBundle_TwoOffers_MultiQtyReceipt2": {
+		"slug": "automationseventeen"
+	},
+	"T7222_1_testBundleTargetAdvanced_BundleWithDifferentQty": {
+		"slug": "automationseventeen"
+	},
+	"T7222_2_testBundleTargetAdvanced_BundleWithDifferentQty": {
+		"slug": "automationseventeen"
+	},
+	"T7222_3_testBundleTargetAdvanced_BundleWithDifferentQty": {
+		"slug": "automationseventeen"
+	},
+	"T7223_testPOSDiscountLookup_ReusabilityOnStackingOn_BaseOnly_BundleQtyMismatch_Error": {
+        "slug": "automationseventeen"
+    },
+    "T7224_testPOSDiscountLookup_ReusabilityOnStackingOff_BaseOnly_BundleQtyMismatch_Error": {
+        "slug": "automationseventeen"
+    },
+    "T7225_testPOSDiscountLookup_ReusabilityOffStackingOn_BaseOnly_BundleQtyMismatch_Error": {
+        "slug": "automationseventeen"
+    },
+    "T7226_testPOSDiscountLookup_ReusabilityOffStackingOff_BaseOnly_BundleQtyMismatch_Error": {
+        "slug": "automationseventeen"
+    },
+    "T7227_ModifierOnly_MultiOffers_TargetBundle_RecycleOnStackOn": {
+        "slug": "automationseventeen"
+    },
+    "T7228_ModifiersOnly_MultiOffers_TargetBundle_RcyOnStackOn": {
+        "slug": "automationseventeen"
+    },
+    "T7229_testBaseOnly_SingleOffer_NoDiscount_WhenBundlePriceLessThanTarget": {
+        "slug": "automationseventeen"
+    },
+    "T7230_testPOSDLookup_TargetBundleAdv_QualifiedItems": {
+        "slug": "automationseventeen"
+    }
+    
+}

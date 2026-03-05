@@ -1,0 +1,33 @@
+{
+	"SQ_T5859_AdvancedAuth_Punchh_SignIn_API2_Test":{
+		"slug": "fateats",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+	},
+	"SQ_T5855_AdvancedAuth_Punchh_SignIn_API1_Test":{
+		"slug": "fateats",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+	},
+	"SQ_T5858_AdvancedAuth_Punchh_SignIn_API_Auth_Test":{
+		"slug": "fateats",
+		"client": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+		"secret": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+	},
+
+
+"SQ_T5924_AdvanceAuthUserUpdateSync_Auth": {
+	"slug": "fateats"
+},
+"SQ_T5916_AdvanceAuthUserUpdateSync_API1": {
+	"slug": "fateats"
+},
+"SQ_T5923_AdvanceAuthUserUpdateSync_API2": {
+	"slug": "fateats"
+},
+"SQ_T6027_Verify_AdvanceAuthConfig_MetaAPI": {
+	"slug": "fateats",
+	"clientAdvanceAuthOff": "e9eb04af85b27c4b248489a72e5afdc03a3c2741bdda430363cb87cb87b9b3cf",
+	"secretAdvanceAuthOff": "e814955b8b4996496ad9151b7046032af71e31e244c9e0162c57143b5e7d8da8"
+}
+}

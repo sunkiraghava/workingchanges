@@ -1,0 +1,29 @@
+{
+	"SQ_T6941_GenerateShortCodeAPIForDriveThru": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"validLocID": "393587",
+		"driveThruCodeLengthStrategy": "4-digit Numeric code"	
+	},
+	"SQ_T6942_GenerateShortCodeWithoutLocation": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"blankLocID": "",
+		"driveThruCodeLengthStrategy": "4-digit Alphanumeric code"
+	},
+	"SQ_T6940_GenerateShortCodeWithoutStrategySelected": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"validLocID": "393587",
+		"fieldTitleDriveThruCodeLength": " Drive-Thru Short Code Length"
+	},
+	"SQ_T6943_GenerateShortCodeWithoutFeatureEnabled": {
+		"slug": "burgerville",
+		"client": "4447e3a81bc8fa317a6426a2f67c3ac6e4db627178d6c4dcc55307bd3af6922d",
+		"secret": "22c2ccb36cd9e46360db38a45f4cc78bc1da3cd265764500236eb5e374e59173",
+		"validLocID": "393587"
+	}
+}

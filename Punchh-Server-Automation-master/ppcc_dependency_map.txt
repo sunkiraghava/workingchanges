@@ -1,0 +1,62 @@
+PPCC FILES
+
+[UI TESTS]
+src/test/java/com/punchh/server/ppccTest/ppccAllLocationsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccDependentFieldsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccDraftPolicyAuditLogsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationAuditLogFilterTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationAuditLogOtherTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationAuditLogTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationCancelUpdateTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationChangePolicyTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationConfigOverrideUiTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationDeprovisionTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationDownloadFileTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationFilterTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationInitiateUpdateTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationProvisionTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationRemoteUpgradeTest.java
+src/test/java/com/punchh/server/ppccTest/ppccLocationTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPackageDetailsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPackageTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPermissionsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPolicyActionsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPolicyAuditLogsSortingFunctionalityTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPolicyAuditLogsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPolicyFilterAuditLogsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPolicyTest.java
+src/test/java/com/punchh/server/ppccTest/ppccPublishedPolicyAuditLogsTest.java
+src/test/java/com/punchh/server/ppccTest/ppccSettingTest.java
+
+[API TESTS]
+src/test/java/com/punchh/server/apiTest/PpccApiTest.java
+src/test/java/com/punchh/server/apiTest/PpccLocationApiNegativeTest.java
+src/test/java/com/punchh/server/apiTest/PpccLocationApiTest.java
+src/test/java/com/punchh/server/apiTest/PpccPolicyApiTest.java
+src/test/java/com/punchh/server/apiTest/ppccLocationCancelUpdateApiTest.java
+src/test/java/com/punchh/server/apiTest/ppccLocationChangePolicyApiTest.java
+src/test/java/com/punchh/server/apiTest/ppccLocationConfigOverrideApiTest.java
+src/test/java/com/punchh/server/apiTest/ppccLocationRemoteUpgradeApiTest.java
+src/test/java/com/punchh/server/apiTest/ppccLocationinitiateUpdateApiTest.java
+
+[PAGE OBJECTS]
+src/main/java/com/punchh/server/pages/PpccLocationAuditLogPage.java
+src/main/java/com/punchh/server/pages/PpccLocationPage.java
+src/main/java/com/punchh/server/pages/PpccPackagePage.java
+src/main/java/com/punchh/server/pages/PpccPolicyAuditLogs.java
+src/main/java/com/punchh/server/pages/PpccPolicyPage.java
+src/main/java/com/punchh/server/pages/PpccSettingsPage.java
+src/main/java/com/punchh/server/pages/PpccUtilities.java
+
+[SUITE]
+suitesLocal/ppcc.xml
+
+[PPCC TESTDATA FILES]
+resources/Testdata/pp/testdata_apipp.json
+resources/Testdata/qa/testdata_apiqa.json
+resources/TestdataLocal/divya_local/testdata_apidivya_local.json
+resources/TestdataLocal/neha_local/testdata_apineha_local.json
+resources/TestdataLocal/piyush_local/testdata_uipiyush_local.json
+resources/TestdataLocal/raja_local/testdata_apiraja_local.json
+resources/TestdataLocal/rohit_local/testdata_apirohit_local.json
+resources/TestdataLocal/shashank_local/testdata_apishashank_local.json

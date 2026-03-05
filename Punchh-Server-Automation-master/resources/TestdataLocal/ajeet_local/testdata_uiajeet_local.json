@@ -1,0 +1,112 @@
+{
+	"T5974_verifyForNoMaximumAmountLimitUnderMobileConfigGiftCards":{
+			"slug":"demoapp",
+			"giftCardAdaptorName":"Givex (without PIN verify)",
+			"minimumAmount":"2",
+			"maximumAmount":"0",
+			"purchaseAmount1":"100",
+			"purchaseAmount2":"200",
+		    "purchaseAmount3":"30",
+			"reloadAmount1":"400",
+			"reloadAmount2":"500",
+			"reloadAmount3":"145",
+			"autoReloadAmount1":"400",
+			"autoReloadAmount2":"1000",
+			"autoReloadAmount3":"2000",
+			"thresoldAmount1":"0",
+			"thresoldAmount2":"100",
+			"thresoldAmount3":"105"
+		},
+	"T5986_ValidateErrorMessagesUnderCockpit":{
+			"slug":"demoapp",
+			"giftCardAdaptorName":"Givex (without PIN verify)",
+			"minimumAmount":"2",
+			"minimumAmount1":"202",
+			"maximumAmount":"200",
+			"maximumAmount1":"90",
+			"purchaseAmount1":"200",
+		    "purchaseAmount2":"200",
+			"purchaseAmount3":"200",
+			"reloadAmount1":"200",
+			"reloadAmount2":"200",
+			"reloadAmount3":"200",
+			"autoReloadAmount1":"200",
+			"autoReloadAmount2":"200",
+			"autoReloadAmount3":"200",
+			"thresoldAmount1":"0",
+			"thresoldAmount2":"100",
+			"thresoldAmount3":"105"
+			},
+ "T5974_NegativeTestVerifyForNoMaximumAmountLimitUnderMobileConfigGiftCards": {
+	    "slug": "moes",
+	    "giftCardAdaptorName": "Givex (without PIN verify)",
+			"purchaseAmount1": "2",
+			"purchaseAmount2": "200",
+			"purchaseAmount3": "200",
+			"reloadAmount1": "200",
+			"reloadAmount2": "2",
+			"reloadAmount3": "200",
+			"autoReloadAmount1": "200",
+			"autoReloadAmount2": "200",
+			"autoReloadAmount3": "2",
+			"thresoldAmount1": "0",
+			"thresoldAmount2": "1000",
+			"thresoldAmount3": "110",
+			"minimumAmount": "2",
+			"maximumAmount": "200",
+			"secondTimeEnteredAmount": "xyz",
+			"purchaseAmount11": "1",
+			"purchaseAmount22": "201",
+			"purchaseAmount33": "201",
+			"reloadAmount11": "201",
+			"reloadAmount22": "1",
+			"reloadAmount33": "201",
+			"autoReloadAmount11": "201",
+			"autoReloadAmount22": "201",
+			"autoReloadAmount33": "1",
+			"thresoldAmount11": "0",
+			"thresoldAmount22": "1000",
+			"thresoldAmount33": "110"
+	       },
+	"T6050_VerifySavedRowAttachToEmailTemplate":{
+		"slug":"demoapp",
+		"searchRow":"row",
+		"youTubeVideoLink":"https://www.youtube.com/shorts/8l4iphxZurc"
+		},
+		"T6241_T6256_ValidateNewlyAddedFieldSmsPrivacyPolicyAndSmsTermsAndConditionAndSmsPrivacyAndSHowMapToolBarAndShowgetDirectionFlags": {
+			"slug":"moes",
+			"client":"vveTBSh1sjogTTzZwauwLnm8VoNA4HvKTls1tT5RFy0",
+			"secret":"3si8omfMKpxZpv4j7Z97KB_jNAT7m4aaKf9emBsVdaY",
+			"smsPrivacyPolicyLabel":"SMS Privacy Policy URL",
+			"smsTermsAndConditionLabel":"SMS Terms and Conditions URL",
+			"privacyPolicyLabel":"Privacy Policy URL",
+			"smsPrivacyPolicyInvalidURL":"https://dashboard-development. punchh.com:3000/",
+			"smsTermsAndConditionInValidURl":"https://dashboard-development. punchh.com:3000/",
+			"privacyPolicyInvalidUrl":"https://dashboard-development. punchh.com:3000/",
+			"validUrlsmsPrivacyPolicy":"https://dashboard-development.punchh.com:3000/",
+			"validUrlSmstermsCondition":"https://dashboard-development.punchh.com:3000/",
+			"validUrlPrivacyPolicy":"https://dashboard-development.punchh.com:3000/"
+		},
+	"T6119_AttachEmailTemplateToSystemMessage":{
+			"slug":"moes",
+			"templateName":"AutoEmailTemplate13512831032023",
+			"testUserEmail":"ajeet.singh@partech.com"
+		},
+	"T6120_AttachEmailTemplateToMembershipLevel":{
+			"slug":"moes",
+			"templateName1":"AutoEmailTemplate13512831032023"
+		},
+	"T6121_AttachEmailTemplateToSurveys":{
+			 "slug":"moes",
+			 "templateName2":"AutoEmailTemplate13512831032023"
+		},
+	"T6122_AttachEmailtemplateToCampaigns":{
+			"slug":"moes",
+			 "templateName3":"AutoEmailTemplate13512831032023",
+			 "segmentName":"All signup segment",
+			 "testUserEmail":"ajeet.singh@partech.com",
+			 "emailSubject":"Testing purpose",
+			 "emailTemplate":"AutoEmailTemplate13512831032023",
+			 "audiance":"segment"
+	}	
+}

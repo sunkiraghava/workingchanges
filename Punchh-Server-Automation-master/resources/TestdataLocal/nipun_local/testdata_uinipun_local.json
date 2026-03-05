@@ -1,0 +1,36 @@
+{
+	"SQ_T5871_advanceAuthOauthAppCreationAndDeletionSyncTest": {
+		"slug": "fateats",
+		"email": "nipun.jain+521359500@partech.com"
+	},
+	"SQ_T5872_advanceAuthOauthAppUpdationSyncTest": {
+		"slug": "fateats"
+	},
+
+	"SQ_T6020_AdvancedAuthE2EPhoneOnlyUser": {
+		"slug": "fateats",
+		"toPhone": "8109175140",
+		"toPhoneExtension": "+91"
+	},
+	"SQ_T6015_AdvancedAuthE2EEmailOnlyUser": {
+		"slug": "fateats"
+	},
+	"SQ_T6019_AdvancedAuthE2EEmailAndPhoneUser": {
+		"slug": "fateats"
+	},
+	"SQ_T6047_VerifyAdvancedAuthUserSyncForAnonymise": {
+		"slug": "fateats"
+	},
+	"SQ_T6054_VerifyAdvancedAuthUserSyncForDeactivateDelete": {
+		"slug": "fateats"
+	},
+	"SQ_T5925_AdvanceAuthUserUpdateSync_Dashboard": {
+		"slug": "fateats"
+	},"SQ_T6026_validate_blocking_of_punchh_generated_emails": {
+		"slug": "fateats"
+	},
+    "T2769_VerifyGoogleSignupIn": {
+      "slug": "demoapp",
+      "google_client": "386071246724-qdk3l8apqj4k6s883u6iisnmh507d58e.apps.googleusercontent.com"
+    }
+}

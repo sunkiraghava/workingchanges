@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="dataExport" preserve-order="true" parallel="classes" thread-count="10">
+
+	<parameter name="BROWSER" value="chrome" ></parameter>
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="localhost" /> <!-- 192.168.43.152 -->
+	<parameter name="suite" value="localRegression" />
+	<parameter name="environment" value="PP" />
+
+	<listeners>
+		<!-- <listener class-name="com.punchh.server.utilities.Transformer" /> -->
+		<listener
+			class-name="com.punchh.server.utilities.TestListeners" />
+	</listeners>
+
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+			<class name="Support.ConfigurationClass" />
+			<class name="com.punchh.server.dataExportTest.DataExportGuestDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportRedeemableDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportRegressionTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportSubscriptionCreditDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportSubscriptionDebitDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportSubscriptionDiscountDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportTest" /> 
+			<class name="com.punchh.server.dataExportTest.DataExportUserIdLabelArchiveRewardsDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportUserIdLabelRedemptionDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportUserIdLabelReferralDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportUserIdLabelRewardDataTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportUserIdLabelUserFeedbackDataTest" /> 
+			<class name="com.punchh.server.dataExportTest.DataExportPaymentDataAllLocationTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportPaymentDataLocationGroupTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportPaymentDataSpecificLocationTest" /> 
+			<class name="com.punchh.server.dataExportTest.DataExportLiabilityReportTest" /> 
+			<class name="com.punchh.server.dataExportTest.DataExportLocationsDataAllLocationTest" />
+			<class name="com.punchh.server.dataExportTest.DataExportSubscriptionTest"/>
+			<class name="com.punchh.server.dataExportTest.DataPipelineTableChagnesTest"/>
+      		<class name="com.punchh.server.dataExportTest.DataExportRedemptionDataTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointToRewardAllSelectedTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointToRewardDefaultFieldsTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointToRewardSepificFieldsWithSingleLocationTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointUnlockRedeemableAllSelectedTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointUnlockRedeemableDefaultFieldsTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointUnlockRedeemableSepificFieldsWithSingleLocationTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointsBasedConvertToCategoryChoosenByGuestAllSelectedTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointsBasedConvertToCategoryChoosenByGuestDefaultFieldsTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportPointsBasedConvertToCategoryChoosenByGuestSepificFieldsWithSingleLocationTest"/>
+      		<class name="com.punchh.server.dataExportTest.DataExportVisitBasedSepificFieldsWithSingleLocationTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportVisitBasedDefaultFieldsTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportVisitBasedAllSelectedTest"/>  
+      		<class name="com.punchh.server.dataExportTest.DataExportPointToCurrencyDefaultFieldsTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataExportCampaignData"/> 
+      		<class name="com.punchh.server.dataExportTest.TrialDataPipelineTest"/> 
+      		<class name="com.punchh.server.dataExportTest.DataPlatformSchedules"/>
+      		
+      		<!-- <class name="com.punchh.server.dataExportTest.TrialDataPipelineTest"/> -->
+      		
+		</classes>
+	</test>
+</suite> <!-- Suite -->

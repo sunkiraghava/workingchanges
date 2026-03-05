@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="webhooks Local Suite" parallel="classes" thread-count="1" preserve-order="true">
+
+    <!-- Explicitly mark this for local execution -->
+    <parameter name="BROWSER" value="chrome" />
+    <parameter name="RUNTYPE" value="local" />
+    <parameter name="HUB_HOST" value="localhost" />
+    <parameter name="environment" value="pp" />
+
+    <listeners>
+        <listener class-name="com.punchh.server.utilities.TestListeners" />
+    </listeners>
+
+    <test name="webhooks Test" preserve-order="true">
+        <classes>
+            <class name="Support.ConfigurationClass" />
+            <class name="com.punchh.server.EventFrameworkTest.EventFrameWorkRateLimitTest"/>
+            <class name="com.punchh.server.EventFrameworkTest.EventFrameWorkWebhookCachingTest"/> 
+            <class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkHeadersValidationTest"/>
+         </classes>
+     </test>
+ </suite>

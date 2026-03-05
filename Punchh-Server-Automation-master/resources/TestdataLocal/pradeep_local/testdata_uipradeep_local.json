@@ -1,0 +1,106 @@
+{
+	"TC1382_ToVerifyTheBulkImportLocationOnboardingForPARPayGC": {
+		"slug": "burgermonger",
+		"business_id": "690",
+		"vendorLocationID": "01JS1R2EAGA722FH45A25SSZAY",
+		"vendorLocationStatus": "Active"
+	},
+	"TC1375_76ToVerifyParPayGiftCardReloadAndFetchBalance": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"client": "d0db32d8d6d3de81099490525f2d6e6c1e3e527032ef0a6de6d02d5800b46ab1",
+		"secret": "2a26a1e66e10950e3da856d86dc9b65a4f60ec87b5b5ec477ed2665b3a82f79e",
+		"amount": "15",
+		"reloadAmount": "2",
+		"cardId": "566",
+		"token": "f1-Uj25j9_fl9bQyRkQOfKjsK7MpLYrcAGWVbjOwy6E",
+		"uuidNumber": "f4196eb1-5373-4648-9db1-055728b2645b"
+	},
+	"T6820_verifyTipTypePercentageAndTipInPOSUserLookupApi": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"payment_type": "CreditCard",
+		"transaction_token": "fake-valid-nonce",
+		"tip_type": "percentage",
+		"tip": "2",
+		"location_key": "6c233bae762e2d3e999dde89649acc53"
+	},
+	"T6820_verifyTipTypeFlatAndTipInPOSUserLookupApi": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"payment_type": "CreditCard",
+		"transaction_token": "fake-valid-nonce",
+		"tip_type": "flat",
+		"tip": "2",
+		"location_key": "6c233bae762e2d3e999dde89649acc53"
+	},
+	"T6820_verifyTipInPOSUserLookupApi": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"payment_type": "CreditCard",
+		"transaction_token": "fake-valid-nonce",
+		"tip": "2",
+		"location_key": "6c233bae762e2d3e999dde89649acc53"
+	},
+	"T6819_newAddedSingleScanFlowTab": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"amount_tip_option_1": "1",
+		"amount_tip_option_2": "2",
+		"amount_tip_option_3": "3",
+		"percentage_tip_option_1": "10",
+		"percentage_tip_option_2": "20",
+		"percentage_tip_option_3": "30",
+		"flat_tip_type": "flat",
+		"percentage_tip_type": "percentage"
+	},
+	"T6821_verifyDashboardAPIOldMeta": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "fatpizza",
+		"adminAuthorization": "iWEovn1gfE2S6xezdXfo",
+		"redeemable_id": "37",
+		"name": "Base Redeemable"
+	},
+	"T6916_yextLocationsWithGeomodifierApiValidation": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"adminAuthorization": "Kxybd-pRarmwpypD6tXH",
+		"YextLocationMappingGromodifier": "Geomodifier"
+	},
+	"T6916_yextLocationsWithoutGeomodifierApiValidation": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "burgermonger",
+		"adminAuthorization": "Kxybd-pRarmwpypD6tXH"				
+	},
+	"T6821_verifyDashboardAPIMetaNewFlow": {
+		"whiteLabel": "/whitelabel/",
+		"slug": "fatpizza",
+		"adminAuthorization": "iWEovn1gfE2S6xezdXfo",
+		"program_type": "points_unlock_redeemables",
+		"points_conversion_type": "none",
+		"guest_identity_code_type": "barcode",
+		"points_conversion_threshold": "300",
+		"guest_lookup_type": "short_code",
+		"name": "Silver Level",
+		"redeemable_id": "37"
+	},
+	"T6937_VerifyIsActiveStatusPARCommerceGiftCardValidation": {
+	    "slug": "burgermonger",
+		"design_id": "566",
+		"amount": "12",
+		"expDate": "12/29/2035",
+		"vendor_location_id": "01K5ZRYPXCV4RKE22WA7XHCBRG",
+		"status": "0",
+		"business_id": "690",
+		"location_id": "351162",
+		"hqLocationName": "Automation: Non Payment Config Location (Don't change)"
+	},
+	"T6937_VerifyIsActiveStatusPARCommercePaymentValidation": {
+	   "slug": "burgermonger",
+		"vendor_location_id": "01K5ZVF8ETRHY4PG4JW2QZHBH2",
+		"status": "0",
+		"business_id": "690",
+		"location_id": "351162",
+		"hqLocationName": "Automation: Non Payment Config Location (Don't change)"
+	}
+}

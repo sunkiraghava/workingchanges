@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Local Regression Suite" parallel="classes" thread-count="10" preserve-order="true">
+
+	<parameter name="BROWSER" value="headlesschrome" />
+	<parameter name="RUNTYPE" value="local" />
+	<parameter name="HUB_HOST" value="" /> <!-- 192.168.43.152 -->
+	<parameter name="suite" value="localRegression" />
+	<parameter name="environment" value="pp" />
+    <parameter name="zephyrExecution" value="false" />
+
+	<listeners>
+		<!-- <listener class-name="com.punchh.server.utilities.Transformer" /> -->
+		<listener
+			class-name="com.punchh.server.utilities.TestListeners" />
+	</listeners>
+ 
+	<test name="Regression Test" preserve-order="true">
+		<classes>
+			<class name="Support.ConfigurationClass" />
+			<!-- Rolling and decouple expiry tests start-->
+			<class name="com.punchh.server.LP1Test.RollingCheckinSumExpiryTest"/>
+			<class name="com.punchh.server.LP1Test.DecoupleRollingExpiryRollingCheckinSumPTRTest"/>
+			<class name="com.punchh.server.LP1Test.DecoupleRollingExpiryTestPTCTest"/>
+			<class name="com.punchh.server.LP1Test.MembershipLevelDecouplingTest"/>
+			<class name="com.punchh.server.LP1Test.MembershipAcctSummaryPURTest"/>
+			<class name="com.punchh.server.LP1Test.MembershipAcctSummaryPTCTest"/>
+			<class name="com.punchh.server.LP1Test.RollingExpiryAndMembershipValidationTest" />
+			<class name="com.punchh.server.LP1Test.EffectiveMembershipTest"/>
+			<class name="com.punchh.server.LP1Test.MembershipCalculationPURTest"/>
+			<class name="com.punchh.server.LP1Test.MigrationStrategyTest"/>
+			<class name="com.punchh.server.LP1Test.MigrationStrategyAndApiTest"/>
+      		<class name="com.punchh.server.LP1Test.RollingExpiryTest"/> 
+			<class name="com.punchh.server.LP1Test.DecoupleRollingExpiryTest"/> 
+			<class name="com.punchh.server.LP1Test.DecoupleRollingExpiryAndApiTest"/>
+			<!-- Rolling and decouple expiry tests stop--> 
+			<class name="com.punchh.server.LP1Test.SubscriptionPlanPurchaseTest"/> 
+          	<class name="com.punchh.server.CXTest.EmailTemplateTest" />
+			<class name="com.punchh.server.mobileTests.ApplePassesTest"/>
+			<class name="com.punchh.server.Integration2.IdentityServiceGUITest" /> 
+			<class name="com.punchh.server.Test.ItemCatalogTest"/>
+			<class name="com.punchh.server.CXTest.MobileConfigurationThemesIconUploadTest"/>
+			<class name="com.punchh.server.CXTest.E2ECurbsideOrderTest" />
+			<class name="com.punchh.server.LP1Test.LocationGroupCSVUploadTest"/>
+			<class name="com.punchh.server.apiTest.ItemRecSysAPITest"/>
+			<class name="com.punchh.server.verificationPortalTest.verificationPortalTest" />
+ 			<class name="com.punchh.server.campaignsTest.ApplePassesAPITest"/>
+ 			<class name="com.punchh.server.Test.ExpiryStrategyTest"/>
+			<class name="com.punchh.server.campaignsTest.ChallengeCampaignTest"/>
+      		<class name="com.punchh.server.Test.CustomSegementBulkTest"/>
+      		<class name="com.punchh.server.Test.InternationalSupportTest"/>
+ 			<class name="com.punchh.server.Test.SubscriptionWithHeartlandAdaptorTest"/>
+ 			<class name="com.punchh.server.CXTest.PunchhMenuSTSTest"/>
+ 			<!--  <class name="com.punchh.server.Test.E2EPickuporderTest"/> -->
+			<class name="com.punchh.server.campaignsTest.AndroidPassesTest"/>
+			<class name="com.punchh.server.Test.ValidateNegativePointsInAccountHistoryOfGuestTest" />	
+			<class name="com.punchh.server.OMMTest.ChallengeCampaignTimezoneTest" />
+			<class name="com.punchh.server.segmentsTest.SegmentAndChallengeCampaignTest"/>
+			<class name="com.punchh.server.Test.ContentLibraryTest"/>
+			<class name="com.punchh.server.campaignsTest.PostRedemptionBulkingWithMigratedSegmentTest"/>
+			<class name="com.punchh.server.campaignsTest.PostRedemptionBulkingWithNonTransactionalSegmentTest"/>
+			<class name="com.punchh.server.campaignsTest.PostRedemptionBulkingWithOneTimeFrequencyTest"/>
+			<class name="com.punchh.server.campaignsTest.PostRedemptionBulkingWithTransactionalSegmentQCTest"/>
+			<class name="com.punchh.server.NCHPTest.NewCamHomeStickyBarTest"/>
+			<class name="com.punchh.server.OMMTest.AutoSelectDItemHandlingSubscriptionTest" />
+			<class name="com.punchh.server.OMMTest.QcDetailsForSubscriptionTest" />
+			<class name="com.punchh.server.ppccTest.ppccLocationDownloadFileTest" />
+            <class name="com.punchh.server.Integration2.advanceAuthTest" />
+            <class name="com.punchh.server.Integration2.AdvanceAuthAsyncTest" />
+            <class name="com.punchh.server.Integration2.advanceAuthSyncTest" />
+            <class name="com.punchh.server.Integration2.AdvancedAuthSignUpSignInUpdateCombinationsTest" />
+            <class name="com.punchh.server.Integration2.BasicAuthAPITest" />
+            <class name="com.punchh.server.Test.AppleLoyaltyPassTest"/>
+            <class name="com.punchh.server.Integration2.basicAuthUITest" />
+            <class name="com.punchh.server.Integration2.basicAuthUITest2" />
+            <class name="com.punchh.server.Integration2.CronsTest"/>
+            <class name="com.punchh.server.Integration2.AdvancedAuthNegativeTest"/>
+            <class name="com.punchh.server.Integration2.ApiEnhancementsTest" />
+            <class name="com.punchh.server.Integration2.IdentityServiceAPITest" />
+            <class name="com.punchh.server.Integration2.SocialLoginsGISSyncTest" />
+           <!--  Events Framework Cases -->
+            <class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkSFMCAdapterTransactionalNotificationTest"/>
+			<class name="com.punchh.server.EventsFrameworkNewCases.CustomWebhookEFTestCases"/>
+			<class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkSFMCAdapterTest"/>
+			<class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkBrazeAdapterTest"/>
+			<class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkBrazeAdapterWithDeltaFlagOnForTransactionalNotificationTest"/>
+			<class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkCustomWebhookTest"/>
+			<class name="com.punchh.server.EventsFrameworkNewCases.EventFrameWorkMParticleAdapterWithDeltaFlagOnTest"/>
+			<class name="com.punchh.server.campaignsTest.MassOfferWithFrequencyTest" />
+			<class name="com.punchh.server.campaignsTest.MassNotificationWithFrequencyTest" />
+			<class name="com.punchh.server.campaignsTest.MassNotificationCampaignTest" />
+			<class name="com.punchh.server.campaignsTest.MassOfferWithLocationTest" />
+			<!-- <class name="com.punchh.server.LP1Test.CollectiblesTest" /> will uncomment once changes merged in master -->
+			<!-- <class name="com.punchh.server.Integration1.PARPayGiftCardTest" />-->
+
+ 			
+	        <!-- <class name="com.punchh.server.Test.SegmenBetaTest"/> 
+	        <class name="com.punchh.server.Test.SegmenValidationRegressionTest" />
+			<class name="com.punchh.server.Test.VerifyBannedUserFilter"/>
+			<class name="com.punchh.server.Test.SubscriptionWithHeartlandAdaptorTest"/>
+			<class name="com.punchh.server.Test.RedeemableImageTest" /> as discussed with rohit doraya no need to run these in regular regression
+            <class name="com.punchh.server.Test.RedeemableImageActiveRedemptionsApiTest" /> as discussed with rohit doraya no need to run these in regular regression-->
+
+
+			
+		
+		</classes>
+	</test>
+</suite> <!-- Suite -->
