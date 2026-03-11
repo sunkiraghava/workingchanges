@@ -593,7 +593,21 @@ public class PpccPolicyPage {
 		logger.info("autoCloseOnRedeem CheckBox is clicked");
 		TestListeners.extentTest.get().pass("Value of Auto Close On Redeem checkbox is entered successfully.");
 	}
+	public void enterBeBackForceRefreshCheckBox() {
+	    WebElement element = utils.getLocator("ppccPolicyPage.beBackForceRefreshCheckBox");
+	    utils.waitTillElementToBeClickable(element);
+	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block:'center'});", element);
 
+	    try {
+	        element.click();
+	    } catch (Exception e) {
+	        utils.clickByJSExecutor(driver, element);
+	    }
+
+	    utils.waitTillPagePaceDone();
+	    logger.info("Be Back Force Refresh CheckBox is clicked");
+	    TestListeners.extentTest.get().pass("Value of Be Back Force Refresh checkbox is entered successfully.");
+	}
 	public void enterCouponPrefix(String couponPrefix){
 		WebElement couponPrefixField = utils.getLocator("ppccPolicyPage.couponPrefixField");
 		utils.waitTillElementToBeClickable(couponPrefixField);
@@ -683,6 +697,7 @@ public class PpccPolicyPage {
 		enterAutoCreateCustomerCheckBox();
 		enterAutoCheckinCheckBox();
 		enterAutoCloseOnRedeemCheckBox();
+		enterBeBackForceRefreshCheckBox();
 		enterCouponPrefix("Coupon Prefix");
 		enterbarcodeOnCheckinCheckBox();
 		enterbarcodeOnZeroCheckCheckBox();

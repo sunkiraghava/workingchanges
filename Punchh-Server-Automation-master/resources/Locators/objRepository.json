@@ -3712,6 +3712,7 @@
 		"autoCreateCustomerCheckBox": "//span[contains(text(),'Auto Create Customer ')]/../following-sibling::div//div/div",
 		"autoCheckinCheckBox": "//span[contains(text(),'Auto Check-In ')]/../following-sibling::div//div/div",
 		"autoCloseOnRedeemCheckBox": "//span[contains(text(),'Auto Close On Redeem ')]/../following-sibling::div//div/div",
+		"beBackForceRefreshCheckBox": "//span[contains(text(),'Be Back Force Refresh')]/../following-sibling::div//div/div",
 		"couponPrefixField": "//span[contains(text(),'Coupon Prefix ')]/../following-sibling::div//input[1]",
 		"menuItemPrefixField": "//span[contains(text(),'Menu Item Prefix ')]/../following-sibling::div//input[1]",
 		"barcodeOnCheckinCheckBox": "//span[contains(text(),'Barcode On Checkin ')]/../following-sibling::div//div/div",
